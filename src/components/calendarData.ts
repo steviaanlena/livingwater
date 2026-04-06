@@ -18,6 +18,9 @@ export interface ContentItem {
   hashtags: string;
   bibleRef?: string;
   notes?: string;
+  format: "carousel";
+  music: string;
+  slides: string[];
 }
 
 const APRIL_2026: ContentItem[] = [
@@ -33,6 +36,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "A new month, a new mercy. God is doing something new in your life.\n\n\"See, I am doing a new thing! Now it springs up; do you not perceive it?\" — Isaiah 43:19\n\nWhat are you trusting God for this April? Drop it below.",
     hashtags: "#LivingWater #VerseOfTheDay #Isaiah4319 #NewBeginnings #BibleVerse #Faith #ChristianContent",
     bibleRef: "Isaiah 43:19",
+    format: "carousel",
+    music: "\"Great Are You Lord\" by All Sons & Daughters — gentle, hopeful, building",
+    slides: [
+      "Slide 1: Navy background with a thin cream decorative line at the top. Large Playfair Display heading: 'NEW BEGINNINGS' in cream. Below in Inter regular: 'Verse of the Day — April 1'. A small water ripple icon centered beneath. Spacious, elegant layout with generous padding.",
+      "Slide 2: Cream/off-white background. The verse in large Playfair Display italic: '\"See, I am doing a new thing! Now it springs up; do you not perceive it?\"' in navy. Reference 'Isaiah 43:19' in small Inter caps below, spaced out. A subtle watercolor wash of soft gold at the bottom edge.",
+      "Slide 3: White background with navy text. Short reflection in Inter regular: 'A new month, a new mercy. God is doing something new in your life.' Below, a thin navy horizontal rule, then 'Isaiah 43:19' in Playfair Display small caps. LivingWater logo mark at bottom center in navy.",
+    ],
   },
   {
     id: "apr-01-word",
@@ -45,6 +55,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "WORD STUDY: CHESED\n\nThe Hebrew word 'Chesed' (חֶסֶד) means steadfast love, mercy, and faithfulness. It's the word used over 240 times in the Old Testament to describe God's loyal, covenant love for His people.\n\nIt's not just love — it's love that refuses to let go.\n\n\"Give thanks to the Lord, for He is good. His chesed endures forever.\" — Psalm 136:1\n\nGod's love for you is not fragile. It endures.",
     hashtags: "#LivingWater #WordStudy #Chesed #HebrewWord #GodsLove #Psalm136 #BiblicalHebrew #ChristianTeaching",
     bibleRef: "Psalm 136:1",
+    format: "carousel",
+    music: "\"Goodness of God\" by Bethel Music — warm, steady, faithful feel",
+    slides: [
+      "Slide 1: Deep navy background with a subtle gold border. 'CHESED' in large Playfair Display bold cream text, centered. Hebrew calligraphy 'חֶסֶד' above in elegant gold script. Below the English: 'Word Study Wednesday' in Inter light caps. Warm, scholarly, reverent.",
+      "Slide 2: Cream parchment-textured background. Stacked typography in navy Playfair Display: 'Steadfast Love' / 'Mercy' / 'Faithfulness' — each word separated by a thin gold underline. Inter body text below: 'Used 240+ times in the Old Testament to describe God's covenant love.' Warm, minimal, spacious.",
+      "Slide 3: Soft watercolor wash background in golds and blues. Psalm 136:1 in navy Playfair Display italic: '\"Give thanks to the Lord, for He is good. His chesed endures forever.\"' The word 'chesed' highlighted in gold. Small note in Inter below: 'His love refuses to let go.'",
+      "Slide 4: Warm sunset gradient background (peach to gold). Handwritten-style text in navy: 'His love refuses to let go.' Below in Inter regular: 'Lord, thank You that Your love endures forever. Help me rest in Your chesed today.' Soft, intimate close. LivingWater mark at bottom.",
+    ],
   },
 
   // === APRIL 2 (Thursday) ===
@@ -59,6 +77,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Stop leaning on your own understanding.\n\n\"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to Him, and He will make your paths straight.\" — Proverbs 3:5-6\n\nHe knows the way even when you don't.",
     hashtags: "#LivingWater #VerseOfTheDay #Proverbs3 #TrustGod #Faith #BibleVerse #ChristianLife",
     bibleRef: "Proverbs 3:5-6",
+    format: "carousel",
+    music: "\"Trust In You\" by Lauren Daigle — sincere, vulnerable, melodic",
+    slides: [
+      "Slide 1: Navy background with soft cream botanical line art of a winding path in the corner. Playfair Display heading: 'TRUST IN THE LORD' in cream. Inter light below: 'Verse of the Day — April 2'. Clean, elegant, minimal.",
+      "Slide 2: Off-white background. Large Playfair Display italic in navy: '\"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to Him, and He will make your paths straight.\"' Reference 'Proverbs 3:5-6' in Inter small caps below. Generous line spacing.",
+      "Slide 3: White background with a subtle cream gradient at bottom. Inter regular in navy: 'He knows the way even when you don't.' Thin decorative navy line above and below. 'Proverbs 3:5-6' in Playfair Display small caps. LivingWater logo mark at bottom center.",
+    ],
   },
   {
     id: "apr-02-character",
@@ -71,6 +96,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "MOSES: The Reluctant Leader\n\nHe was a prince who became a fugitive. A shepherd who became a deliverer. A man who said \"I can't speak\" — and then spoke to Pharaoh.\n\nGod didn't call Moses because he was ready. God called him because He was ready.\n\nIf God is calling you today, don't look at your weakness. Look at His strength.\n\n\"Who gave human beings their mouths? Is it not I, the Lord? Now go; I will help you speak.\" — Exodus 4:11-12",
     hashtags: "#LivingWater #Moses #BibleStory #BiblicalCharacter #Exodus #GodsCall #Faith #ChristianContent",
     bibleRef: "Exodus 4:11-12",
+    format: "carousel",
+    music: "\"Way Maker\" by Sinach — bold, faith-building, powerful",
+    slides: [
+      "Slide 1: Warm amber-to-navy gradient background. 'MOSES' in very large Playfair Display bold cream text, centered. Below in Inter light italic: 'The Reluctant Leader'. A subtle burning bush silhouette in muted gold at the bottom. Cinematic, dramatic.",
+      "Slide 2: Cream background with warm earth tones. Navy Playfair Display: 'Prince. Fugitive. Shepherd.' — each word on its own line, stacked with weight. Inter body text below: 'He ran from Egypt. He hid in the desert for 40 years. But God wasn't done with him.' Muted, textured, intimate.",
+      "Slide 3: Dark navy background with a glowing golden-orange burning bush illustration at center. Playfair Display in warm gold: '\"I AM WHO I AM.\"' Inter below in cream: 'God called Moses from the fire — and turned a stuttering shepherd into a deliverer of nations.' Dramatic contrast of light and shadow.",
+      "Slide 4: Cream background with subtle burning bush watermark in light gold. Playfair Display in navy: '\"Who gave human beings their mouths? Is it not I, the Lord? Now go; I will help you speak.\"' Inter small caps below: 'Exodus 4:11-12'. Reflection in Inter regular: 'God doesn't call the qualified. He qualifies the called.' LivingWater mark at bottom.",
+    ],
   },
 
   // === APRIL 3 (Friday) ===
@@ -86,6 +119,13 @@ const APRIL_2026: ContentItem[] = [
     hashtags: "#LivingWater #VerseOfTheDay #John14 #PeaceOfChrist #GoodFriday #Easter #BibleVerse",
     bibleRef: "John 14:27",
     notes: "Good Friday is April 3. Tone should be reflective and reverent.",
+    format: "carousel",
+    music: "\"It Is Well With My Soul\" piano instrumental — slow, reverent, solemn",
+    slides: [
+      "Slide 1: Dark charcoal background with a faint cross shadow. Playfair Display in muted cream: 'PEACE I LEAVE WITH YOU'. Inter light below: 'Verse of the Day — Good Friday'. Thin gold horizontal line accent. Solemn, reverent, weighty.",
+      "Slide 2: Deep navy background. Large Playfair Display italic in cream: '\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\"' Reference 'John 14:27' in Inter small caps. Generous spacing, every word breathes.",
+      "Slide 3: Cream background with a subtle dark vignette at edges. Inter regular in navy: 'The peace Jesus gives doesn't depend on your circumstances. It depends on His presence.' Thin navy rule. 'John 14:27' in Playfair Display small caps. LivingWater mark. Quiet, still close.",
+    ],
   },
   {
     id: "apr-03-easter",
@@ -94,10 +134,18 @@ const APRIL_2026: ContentItem[] = [
     series: "Seasonal Devotional Series",
     category: "creative",
     platform: "both",
-    description: "Good Friday devotional. Dark, solemn design with the cross. Reel with ambient worship music and text overlay.",
+    description: "Good Friday devotional. Dark, solemn design with the cross.",
     caption: "GOOD FRIDAY\n\nToday we remember the day love was nailed to a cross.\n\nJesus — the sinless Son of God — took our place. He bore our sin, our shame, our death.\n\n\"It is finished.\" — John 19:30\n\nThose three words changed everything. The debt is paid. The veil is torn. The way is open.\n\nToday, we mourn. But Sunday is coming.",
     hashtags: "#LivingWater #GoodFriday #Easter #ItIsFinished #TheCross #Jesus #John1930 #ChristianFaith",
     bibleRef: "John 19:30",
+    format: "carousel",
+    music: "\"O Come to the Altar\" by Elevation Worship — slow, reverent instrumental arrangement",
+    slides: [
+      "Slide 1: Solid black background fading to deep charcoal. Playfair Display in muted cream, large: 'GOOD FRIDAY'. Below in Inter light: 'Today we remember the day love was nailed to a cross.' A faint silhouette of three crosses at the bottom horizon line in dark gray. Heavy, sacred, still.",
+      "Slide 2: Dark charcoal background with muted burgundy vignette. Playfair Display in cream: 'He bore our sin. Our shame. Our death.' Each phrase on its own line. Below, a thin gold line, then: '\"It is finished.\" — John 19:30' in larger Playfair Display italic, slightly brighter cream. The weight of these words should dominate the slide.",
+      "Slide 3: Dark background transitioning to a faint warm glow at the bottom edge. Playfair Display in cream: 'The debt is paid. The veil is torn. The way is open.' Inter regular below: 'Today, we mourn.' Then, in slightly larger Playfair Display italic with warm gold: 'But Sunday is coming.' A torn curtain silhouette with light breaking through. Hope breaking into darkness.",
+      "Slide 4: Deep navy with a single cross silhouette against fading amber light at center. Playfair Display in gold: '\"It is finished.\"' Inter small caps: 'John 19:30'. Below, Inter regular in cream: 'The greatest act of love in history.' LivingWater mark at bottom in muted cream. Every element sacred and weighty.",
+    ],
   },
 
   // === APRIL 4 (Saturday) ===
@@ -113,6 +161,13 @@ const APRIL_2026: ContentItem[] = [
     hashtags: "#LivingWater #VerseOfTheDay #Psalm46 #BeStill #HolySaturday #Easter #WaitOnGod",
     bibleRef: "Psalm 46:10",
     notes: "Holy Saturday. Keep it quiet and reflective.",
+    format: "carousel",
+    music: "\"Psalm 46 (Lord of Hosts)\" by Shane & Shane — quiet, meditative, still",
+    slides: [
+      "Slide 1: Pure white background with the barest hint of a navy border. Playfair Display in navy, large: 'BE STILL'. Inter light below: 'Verse of the Day — Holy Saturday'. Extremely minimalist. White space is the design. Quiet, reverent, hushed.",
+      "Slide 2: White background with a very faint gray watercolor wash. Large Playfair Display italic in navy: '\"Be still, and know that I am God.\"' Reference 'Psalm 46:10' in Inter small caps below. Maximum whitespace. The silence is intentional.",
+      "Slide 3: Cream background with soft gray edges. Inter regular in navy: 'In the silence between Friday and Sunday, we wait. Not because He's absent — but because He's working.' Thin navy line. 'Psalm 46:10' in Playfair Display small caps. LivingWater mark. Still, patient close.",
+    ],
   },
   {
     id: "apr-04-psalm",
@@ -125,6 +180,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "PSALM SPOTLIGHT: Psalm 22\n\n\"My God, my God, why have you forsaken me?\" — Psalm 22:1\n\nDavid wrote these words 1,000 years before Christ. Yet they perfectly describe what happened on the cross.\n\nBut the Psalm doesn't end in despair. It ends in praise:\n\n\"All the ends of the earth will remember and turn to the Lord.\" — Psalm 22:27\n\nEven in the darkest moments, God's story leads to redemption.",
     hashtags: "#LivingWater #PsalmSpotlight #Psalm22 #Easter #Prophecy #TheCross #BibleStudy",
     bibleRef: "Psalm 22:1, 27",
+    format: "carousel",
+    music: "\"At The Cross\" by Hillsong Worship — contemplative, building from sorrow to hope",
+    slides: [
+      "Slide 1: Deep indigo background with a subtle cross shadow in darker tone. Playfair Display in muted gold: 'PSALM 22' large, and below: 'From Agony to Praise'. Inter italic in cream below: '\"My God, my God, why have you forsaken me?\"' Solemn, heavy, prophetic.",
+      "Slide 2: Dark charcoal background with warm light seeping in from the right edge. Inter regular in cream: 'Written by David 1,000 years before Christ — yet it perfectly describes the crucifixion.' Playfair Display below in gold: 'The Psalm doesn't end in despair.' Faded scroll texture. Reverent, scholarly.",
+      "Slide 3: Background transitions from dark left to warm golden right. Playfair Display italic in navy on the warm side: '\"All the ends of the earth will remember and turn to the Lord.\" — Psalm 22:27' Inter below: 'Even in the darkest moments, God's story leads to redemption.' Warm, hopeful close. LivingWater mark.",
+    ],
   },
 
   // === APRIL 5 (Sunday — EASTER) ===
@@ -140,6 +202,13 @@ const APRIL_2026: ContentItem[] = [
     hashtags: "#LivingWater #Easter #HeIsRisen #Matthew28 #Resurrection #JesusIsAlive #HappyEaster #ChristianFaith",
     bibleRef: "Matthew 28:6",
     notes: "EASTER SUNDAY — biggest post of the month. Maximum effort on design.",
+    format: "carousel",
+    music: "\"Christ Is Risen\" by Matt Maher — triumphant, celebratory, full of glory",
+    slides: [
+      "Slide 1: Radiant gold-to-white gradient background with subtle light rays emanating from center. Playfair Display in navy, very large: 'HE IS RISEN!' Below in Inter caps with letter-spacing: 'EASTER SUNDAY'. Decorative gold cross mark at top. Joyful, majestic, radiant.",
+      "Slide 2: White background with gold leaf accents at corners. Large Playfair Display italic in navy: '\"He is not here; He has risen, just as He said!\"' Reference 'Matthew 28:6' in Inter gold small caps below. Bright, clean, triumphant. The verse commands the entire slide.",
+      "Slide 3: Warm cream background with soft golden light. Inter regular in navy: 'The tomb is empty. Death is defeated. Hope is alive.' Below a gold decorative line: 'Happy Easter, family!' in Playfair Display italic. LivingWater mark in gold at bottom. Celebratory, warm, victorious.",
+    ],
   },
   {
     id: "apr-05-easter",
@@ -148,10 +217,18 @@ const APRIL_2026: ContentItem[] = [
     series: "Seasonal Devotional Series",
     category: "creative",
     platform: "both",
-    description: "Full Easter celebration reel. Sunrise footage, worship music, powerful text overlay about the resurrection.",
+    description: "Full Easter celebration devotional. Sunrise imagery, worship music, powerful text overlay about the resurrection.",
     caption: "EASTER SUNDAY\n\nFriday — He was crucified.\nSaturday — He lay in the tomb.\nSunday — HE ROSE.\n\n\"Where, O death, is your victory? Where, O death, is your sting?\" — 1 Corinthians 15:55\n\nBecause He lives, we can face tomorrow. Because He lives, every fear is gone. Because He lives, life is worth living.\n\nJesus Christ is alive. And because of that — so are we.\n\nHappy Resurrection Sunday!",
     hashtags: "#LivingWater #Easter #ResurrectionSunday #HeIsRisen #1Corinthians15 #JesusLives #GoodNews #ChristianContent",
     bibleRef: "1 Corinthians 15:55",
+    format: "carousel",
+    music: "\"Living Hope\" by Phil Wickham — triumphant, soaring, full of joy",
+    slides: [
+      "Slide 1: Dark-to-gold dramatic gradient. Playfair Display in muted cream at top: 'Friday — He was crucified.' Center in slightly brighter cream: 'Saturday — He lay in the tomb.' Bottom in brilliant gold, very large Playfair Display bold: 'Sunday — HE ROSE.' The progression from dark to light tells the story visually. Three crosses silhouette at top fading into sunrise at bottom.",
+      "Slide 2: Brilliant gold and white background with light rays. Playfair Display italic in navy, large: '\"Where, O death, is your victory? Where, O death, is your sting?\"' Inter small caps: '1 Corinthians 15:55'. The verse feels like a triumphant shout. Radiant, victorious, breathtaking.",
+      "Slide 3: Warm cream background with soft gold accents. Inter regular in navy: 'Because He lives, we can face tomorrow. Because He lives, every fear is gone. Because He lives, life is worth living.' Each line given its own space. Repetition builds power. Warm, rhythmic, hopeful.",
+      "Slide 4: White background with golden sunrise watercolor at bottom. Playfair Display in navy, large: 'Jesus Christ is alive.' Below in Inter italic: 'And because of that — so are we.' Gold decorative line, then 'Happy Resurrection Sunday!' in Playfair Display. LivingWater mark in gold. Maximum celebration.",
+    ],
   },
 
   // === APRIL 6 (Monday) ===
@@ -166,6 +243,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "The Gospel in one verse:\n\n\"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God.\" — Ephesians 2:8\n\nYou can't earn it. You can't lose it. It's a gift. Receive it.",
     hashtags: "#LivingWater #VerseOfTheDay #Ephesians2 #Grace #Gospel #Salvation #BibleVerse #Faith",
     bibleRef: "Ephesians 2:8",
+    format: "carousel",
+    music: "\"Amazing Grace (My Chains Are Gone)\" by Chris Tomlin — classic, freeing, graceful",
+    slides: [
+      "Slide 1: Navy background with gold accent lines at top and bottom. Playfair Display in cream: 'BY GRACE YOU ARE SAVED'. Inter light below: 'Verse of the Day — April 6'. A subtle gift/ribbon decorative motif in muted gold. Elegant, warm.",
+      "Slide 2: Cream background. Playfair Display italic in navy, large: '\"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God.\"' Inter small caps: 'Ephesians 2:8'. Clean, spacious, the verse fills the frame.",
+      "Slide 3: White background with soft gold gradient at bottom. Inter regular in navy: 'You can't earn it. You can't lose it. It's a gift. Receive it.' Each sentence punchy and direct. Thin navy rule. 'Ephesians 2:8' in Playfair Display small caps. LivingWater mark.",
+    ],
   },
   {
     id: "apr-06-gospel",
@@ -178,6 +262,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "GOOD NEWS MONDAY\n\nThe Gospel is simple:\n\n1. We all sinned and fell short of God's glory (Romans 3:23)\n2. The wages of sin is death (Romans 6:23)\n3. But God demonstrated His love — while we were still sinners, Christ died for us (Romans 5:8)\n4. If you confess with your mouth that Jesus is Lord and believe He rose from the dead, you will be saved (Romans 10:9)\n\nThis is the Good News. It's free. It's for you. Today.",
     hashtags: "#LivingWater #GoodNewsMonday #Gospel #Jesus #Salvation #Romans #GoodNews #Faith",
     bibleRef: "Romans 10:9",
+    format: "carousel",
+    music: "\"Good Grace\" by Hillsong UNITED — upbeat, declarative, joyful",
+    slides: [
+      "Slide 1: Rich navy background with a subtle golden cross watermark. Playfair Display in cream, bold: 'GOOD NEWS MONDAY'. Below in Inter: 'The Gospel in 4 Steps'. Warm gold accent line beneath. Clean, confident, inviting.",
+      "Slide 2: Dark navy background transitioning slightly warmer. Numbered steps in Inter regular cream text: '1. We all sinned (Romans 3:23)' and '2. The wages of sin is death (Romans 6:23)'. Each step with clear numbering and generous spacing. Subtle broken chain motif in dark gray behind text.",
+      "Slide 3: Background shifts from dark to warm golden light. Steps continue: '3. God demonstrated His love — Christ died for us (Romans 5:8)' and '4. Confess and believe — you will be saved (Romans 10:9)'. A cross silhouette with light radiating outward. The mood visibly lifts from slide 2.",
+    ],
   },
 
   // === APRIL 7 (Tuesday) ===
@@ -192,6 +283,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "God has a plan for you — and it's good.\n\n\"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.\" — Jeremiah 29:11\n\nEven when you can't see the road ahead, He can.",
     hashtags: "#LivingWater #VerseOfTheDay #Jeremiah2911 #GodsPlans #Hope #Faith #BibleVerse",
     bibleRef: "Jeremiah 29:11",
+    format: "carousel",
+    music: "\"Even When It Hurts\" by Hillsong UNITED — tender, hopeful, forward-looking",
+    slides: [
+      "Slide 1: Warm cream-to-soft-gold gradient. Playfair Display in navy: 'GOD HAS A PLAN'. Inter light below: 'Verse of the Day — April 7'. A subtle winding road illustration in muted navy line art. Warm, hopeful, inviting.",
+      "Slide 2: Off-white background with soft warm light. Playfair Display italic in navy, large: '\"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.\"' Inter small caps: 'Jeremiah 29:11'. Generous spacing.",
+      "Slide 3: White background with golden gradient at bottom edge. Inter regular in navy: 'Even when you can't see the road ahead, He can.' Thin navy decorative line. 'Jeremiah 29:11' in Playfair Display small caps. LivingWater mark. Encouraging, warm close.",
+    ],
   },
   {
     id: "apr-07-testimony",
@@ -204,6 +302,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "TESTIMONY TUESDAY: Thomas\n\nThey told him Jesus was alive. He said: \"Unless I see the nail marks in His hands, I will not believe.\" (John 20:25)\n\nA week later, Jesus appeared and said: \"Put your finger here; see my hands. Stop doubting and believe.\" (John 20:27)\n\nThomas replied: \"My Lord and my God!\"\n\nJesus said: \"Blessed are those who have not seen and yet have believed.\"\n\nIf you're wrestling with doubt — you're in good company. Bring your doubts to Jesus. He's not afraid of them.",
     hashtags: "#LivingWater #TestimonyTuesday #Thomas #Doubt #Faith #John20 #Jesus #ChristianTestimony",
     bibleRef: "John 20:25-29",
+    format: "carousel",
+    music: "\"Reckless Love\" by Cory Asbury — slow piano cover, tender, building emotional intensity",
+    slides: [
+      "Slide 1: Deep charcoal background with warm vignette at edges. Playfair Display in cream, large: 'THOMAS'. Below in Inter light italic: 'Testimony Tuesday — From Doubt to Faith'. A subtle question mark motif fading into a cross shape. Moody, intimate, inviting.",
+      "Slide 2: Dark background with text in cream Inter regular, appearing with weight: 'They told him Jesus was alive.' Then larger Playfair Display italic: '\"Unless I see the nail marks in His hands, I will not believe.\"' Inter small caps: 'John 20:25'. The doubt feels real and heavy. Dark, honest.",
+      "Slide 3: Background warms from charcoal to amber. Playfair Display in gold: '\"Stop doubting and believe.\"' Below, Thomas's response in larger, glowing text: '\"My Lord and my God!\"' Golden light seeping in from edges. The turning point — darkness giving way to warm revelation.",
+      "Slide 4: Warm cream background. Playfair Display italic in navy: '\"Blessed are those who have not seen and yet have believed.\"' Inter small caps: 'John 20:29'. Below a thin navy line, Inter regular: 'Bring your doubts to Jesus. He's not afraid of them.' LivingWater mark. Intimate, encouraging close.",
+    ],
   },
 
   // === APRIL 8 (Wednesday) ===
@@ -218,6 +324,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "You are not wandering alone.\n\n\"The Lord is my shepherd, I lack nothing.\" — Psalm 23:1\n\nThe Good Shepherd leads, provides, protects, and restores. Whatever you need today — He is enough.",
     hashtags: "#LivingWater #VerseOfTheDay #Psalm23 #GoodShepherd #GodsProvision #BibleVerse #Peace",
     bibleRef: "Psalm 23:1",
+    format: "carousel",
+    music: "\"The Lord Is My Shepherd\" by Keith & Kristyn Getty — pastoral, gentle, hymn-like",
+    slides: [
+      "Slide 1: Soft sage green background with cream text. Playfair Display: 'THE LORD IS MY SHEPHERD'. Inter light below: 'Verse of the Day — April 8'. Subtle line art of a shepherd's staff in cream. Peaceful, pastoral, calm.",
+      "Slide 2: Cream background with soft green watercolor edges. Large Playfair Display italic in navy: '\"The Lord is my shepherd, I lack nothing.\"' Inter small caps: 'Psalm 23:1'. Wide margins, maximum breathing room. The simplicity is the power.",
+      "Slide 3: White background with soft sage accents. Inter regular in navy: 'The Good Shepherd leads, provides, protects, and restores. Whatever you need today — He is enough.' Thin navy line. 'Psalm 23:1' in Playfair Display small caps. LivingWater mark. Peaceful close.",
+    ],
   },
   {
     id: "apr-08-word",
@@ -230,6 +343,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "WORD STUDY: SHALOM\n\nThe Hebrew word 'Shalom' (שָׁלוֹם) is often translated as 'peace' — but it means so much more.\n\nShalom means:\n- Completeness\n- Wholeness\n- Welfare\n- Harmony\n- Flourishing\n\nWhen God gives you peace, He's not just removing conflict. He's restoring everything to the way it was meant to be.\n\n\"The Lord gives strength to His people; the Lord blesses His people with shalom.\" — Psalm 29:11",
     hashtags: "#LivingWater #WordStudy #Shalom #Peace #HebrewWord #Psalm29 #BiblicalPeace #ChristianTeaching",
     bibleRef: "Psalm 29:11",
+    format: "carousel",
+    music: "\"Peace Be Still\" by The Belonging Co — serene, flowing, deeply calming",
+    slides: [
+      "Slide 1: Serene deep blue background with soft golden light from behind center. 'SHALOM' in large Playfair Display cream text. Hebrew 'שָׁלוֹם' above in elegant gold script. Inter light below: 'Word Study Wednesday'. Peaceful, elegant, reverent.",
+      "Slide 2: Soft blue and cream watercolor wash background. Playfair Display in navy: 'More than peace.' Below, stacked list in Inter regular with generous spacing: 'Completeness / Wholeness / Welfare / Harmony / Flourishing'. Each word on its own line. Calming, spacious.",
+      "Slide 3: Gentle flowing water imagery in soft blues and greens as background. Playfair Display italic in navy: '\"The Lord blesses His people with shalom.\"' The word 'shalom' in warm gold. Inter note below: 'Appears 230+ times in the Hebrew Bible.' Inter small caps: 'Psalm 29:11'.",
+      "Slide 4: Sunrise gradient background (soft peach to golden). Inter regular in navy: 'When God gives you peace, He restores everything to how it was meant to be.' Below in Inter italic: 'Lord, let Your shalom wash over every broken place in my life today.' LivingWater mark. Intimate, healing close.",
+    ],
   },
 
   // === APRIL 9 (Thursday) ===
@@ -244,6 +365,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Three words that change everything:\n\n\"God is love.\" — 1 John 4:8\n\nNot God has love. Not God shows love sometimes. GOD IS LOVE. It's His nature. It's who He is. And He loves you.",
     hashtags: "#LivingWater #VerseOfTheDay #1John4 #GodIsLove #Love #BibleVerse #ChristianFaith",
     bibleRef: "1 John 4:8",
+    format: "carousel",
+    music: "\"Who You Say I Am\" by Hillsong Worship — identity-affirming, warm, personal",
+    slides: [
+      "Slide 1: Warm rose-gold gradient background. Playfair Display in navy, large: 'GOD IS LOVE'. Inter light below: 'Verse of the Day — April 9'. A subtle heart formed from two curved lines in navy. Warm, bold, simple.",
+      "Slide 2: Cream background with soft rose-gold border. Large Playfair Display italic in navy: '\"God is love.\"' Inter small caps in gold: '1 John 4:8'. The verse is intentionally massive — three words filling the frame. Simplicity is power.",
+      "Slide 3: White background with warm gold gradient at bottom. Inter regular in navy: 'Not God has love. Not God shows love sometimes. GOD IS LOVE. It's His nature. It's who He is. And He loves you.' Thin navy line. LivingWater mark. Direct, warm, affirming.",
+    ],
   },
   {
     id: "apr-09-fruit",
@@ -256,6 +384,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "FRUIT OF THE SPIRIT: LOVE (Part 1/9)\n\n\"But the fruit of the Spirit is love...\" — Galatians 5:22\n\nLove is listed first because it's the foundation of everything.\n\nBiblical love isn't a feeling — it's a choice. It's patient, kind, not self-seeking (1 Cor 13:4-5). It looks like Jesus washing the feet of the man who would betray Him.\n\nHow to grow in love this week:\n- Pray for someone who frustrates you\n- Serve without expecting anything back\n- Forgive before being asked\n\nLove is the first fruit because it feeds all the rest.",
     hashtags: "#LivingWater #FruitOfTheSpirit #Love #Galatians5 #ChristianLiving #SpiritualGrowth #BibleStudy",
     bibleRef: "Galatians 5:22",
+    format: "carousel",
+    music: "\"Build My Life\" by Housefires — acoustic, gentle, warm, unhurried",
+    slides: [
+      "Slide 1: Warm rose-gold gradient background. 'LOVE' in very large Playfair Display bold navy text, centered. Below in Inter light: 'Fruit of the Spirit — Part 1/9'. Subtle botanical vine illustration framing the edges in muted navy. Warm, inviting, beautiful.",
+      "Slide 2: Soft cream background with delicate watercolor heart motif in muted rose. Playfair Display italic in navy: '\"Love is patient. Love is kind. It does not envy, it does not boast.\"' Inter small caps: '1 Corinthians 13:4'. Gentle, elegant, timeless.",
+      "Slide 3: Warm amber background with soft golden light. Inter regular in navy: 'Jesus washed the feet of the man who would betray Him. That is love.' Imagery concept: hands pouring water, golden light. Tender, intimate mood. The example hits hard.",
+      "Slide 4: Soft morning light gradient (peach to cream). Inter regular in navy, clean list: 'Grow in love this week:' then three action items with bullet points. Below a thin rule, Playfair Display italic: 'Love is the first fruit because it feeds all the rest.' LivingWater mark. Personal, actionable.",
+    ],
   },
 
   // === APRIL 10 (Friday) ===
@@ -270,6 +406,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "He said it over 365 times in the Bible — one for every day:\n\n\"Do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.\" — Isaiah 41:10\n\nWhatever you're afraid of today — He's bigger.",
     hashtags: "#LivingWater #VerseOfTheDay #Isaiah41 #DoNotFear #Courage #GodsPromise #BibleVerse",
     bibleRef: "Isaiah 41:10",
+    format: "carousel",
+    music: "\"No Longer Slaves\" by Bethel Music — courage-building, freedom anthem",
+    slides: [
+      "Slide 1: Bold navy background with a subtle shield motif in dark gold. Playfair Display in cream, large: 'DO NOT FEAR'. Inter light below: 'Verse of the Day — April 10'. Strong, bold, commanding presence.",
+      "Slide 2: Navy background with cream text. Large Playfair Display italic: '\"Do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.\"' Inter small caps: 'Isaiah 41:10'. Powerful, authoritative.",
+      "Slide 3: Cream background with subtle navy gradient at top. Inter regular in navy: 'He said it over 365 times — one for every day. Whatever you're afraid of today — He's bigger.' Thin navy decorative line. 'Isaiah 41:10' in Playfair Display small caps. LivingWater mark. Courageous close.",
+    ],
   },
   {
     id: "apr-10-worship",
@@ -278,10 +421,17 @@ const APRIL_2026: ContentItem[] = [
     series: "Worship Song Reflection",
     category: "creative",
     platform: "both",
-    description: "Connect the lyrics of 'What A Beautiful Name' by Hillsong to Scripture. Audio clip + text overlay for TikTok.",
+    description: "Connect the lyrics of 'What A Beautiful Name' by Hillsong to Scripture.",
     caption: "WORSHIP REFLECTION: \"What A Beautiful Name\"\n\n\"What a beautiful Name it is, the Name of Jesus\"\n\n\"Therefore God exalted Him to the highest place and gave Him the name that is above every name.\" — Philippians 2:9\n\nThe Name of Jesus carries authority over every sickness, every fear, every stronghold. When you don't know what to pray — just whisper His Name.\n\nJesus. There is power in that Name.",
     hashtags: "#LivingWater #WorshipReflection #WhatABeautifulName #Hillsong #Philippians2 #JesusName #Worship",
     bibleRef: "Philippians 2:9",
+    format: "carousel",
+    music: "\"What A Beautiful Name\" by Hillsong Worship — the original recording",
+    slides: [
+      "Slide 1: Soft golden gradient with light particles/bokeh effect. Playfair Display in navy: 'WORSHIP REFLECTION'. Below in Inter italic: '\"What a beautiful Name it is, the Name of Jesus\"'. Musical note decorative element in muted gold. Worshipful, warm, dreamy.",
+      "Slide 2: Cream background with soft gold accents. Playfair Display italic in navy, large: '\"God exalted Him to the highest place and gave Him the name that is above every name.\"' Inter small caps: 'Philippians 2:9'. The verse connects lyric to Scripture. Elegant, reverent.",
+      "Slide 3: White background with warm golden gradient at bottom. Inter regular in navy: 'When you don't know what to pray — just whisper His Name.' Below in large Playfair Display italic gold: 'Jesus.' Then Inter: 'There is power in that Name.' LivingWater mark. Intimate, powerful, worshipful close.",
+    ],
   },
 
   // === APRIL 11 (Saturday) ===
@@ -296,6 +446,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "It's okay to rest. Jesus invites you to:\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" — Matthew 11:28\n\nYou don't have to carry it all. Lay it down at His feet today.",
     hashtags: "#LivingWater #VerseOfTheDay #Matthew11 #Rest #ComeToJesus #BibleVerse #Peace",
     bibleRef: "Matthew 11:28",
+    format: "carousel",
+    music: "\"Rest\" by Kari Jobe — soothing, lullaby-like, deeply calming",
+    slides: [
+      "Slide 1: Soft lavender-to-cream gradient. Playfair Display in navy: 'REST IN HIM'. Inter light below: 'Verse of the Day — April 11'. A subtle pillow/cloud decorative element in muted cream. Calm, soft, inviting rest.",
+      "Slide 2: Cream background with the faintest lavender wash. Large Playfair Display italic in navy: '\"Come to me, all you who are weary and burdened, and I will give you rest.\"' Inter small caps: 'Matthew 11:28'. Spacious, breathing, restful layout.",
+      "Slide 3: White background with soft warm gradient. Inter regular in navy: 'You don't have to carry it all. Lay it down at His feet today.' Thin navy decorative line. 'Matthew 11:28' in Playfair Display small caps. LivingWater mark. Gentle, releasing close.",
+    ],
   },
   {
     id: "apr-11-psalm",
@@ -308,6 +465,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "PSALM SPOTLIGHT: Psalm 91\n\n\"Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty.\" — Psalm 91:1\n\n\"He will cover you with his feathers, and under his wings you will find refuge.\" — Psalm 91:4\n\nThis Psalm is a fortress of promises. When the world feels unsafe, God is your shelter. You are hidden in Him.\n\nSave this for when you need a reminder that you are protected.",
     hashtags: "#LivingWater #PsalmSpotlight #Psalm91 #GodsProtection #Refuge #BibleStudy #Shelter",
     bibleRef: "Psalm 91:1, 4",
+    format: "carousel",
+    music: "\"Surrounded (Fight My Battles)\" by UPPERROOM — protective, enveloping, safe",
+    slides: [
+      "Slide 1: Deep navy background with soft mountain silhouettes in darker tone. Playfair Display in warm gold: 'PSALM 91'. Below in cream Inter: 'Under His Wings'. Playfair Display italic below: '\"Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty.\"' Protective, awe-inspiring.",
+      "Slide 2: Warm cream background with soft golden feather watercolor motifs. Inter regular in navy: 'He will cover you with His feathers, and under His wings you will find refuge.' Playfair Display italic: 'Psalm 91:4'. The imagery of a mother bird — intimate, tender, safe. Gentle botanical accents.",
+      "Slide 3: Warm golden light background with gentle bokeh. Inter regular in navy: 'When the world feels unsafe, God is your shelter. You are hidden in Him.' Below: Playfair Display italic: 'Save this for when you need a reminder that you are protected.' LivingWater mark. Wrapped in safety, at peace.",
+    ],
   },
 
   // === APRIL 12 (Sunday) ===
@@ -322,6 +486,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Happy Sunday!\n\n\"This is the day that the Lord has made; let us rejoice and be glad in it.\" — Psalm 118:24\n\nToday is a gift. Worship Him with your whole heart.",
     hashtags: "#LivingWater #VerseOfTheDay #Psalm118 #Sunday #Rejoice #Worship #BibleVerse",
     bibleRef: "Psalm 118:24",
+    format: "carousel",
+    music: "\"Joyful, Joyful, We Adore Thee\" modern arrangement — bright, celebratory",
+    slides: [
+      "Slide 1: Bright white background with golden sunburst rays from top corner. Playfair Display in navy: 'THIS IS THE DAY'. Inter light below: 'Verse of the Day — Sunday'. Joyful, bright, uplifting energy. Gold accent elements.",
+      "Slide 2: Cream background with warm gold accents. Large Playfair Display italic in navy: '\"This is the day that the Lord has made; let us rejoice and be glad in it.\"' Inter small caps in gold: 'Psalm 118:24'. Celebratory, bright, full of gratitude.",
+      "Slide 3: White background with soft golden gradient. Inter regular in navy: 'Today is a gift. Worship Him with your whole heart.' Thin gold decorative line. 'Psalm 118:24' in Playfair Display small caps. LivingWater mark in gold. Joyful, grateful close.",
+    ],
   },
   {
     id: "apr-12-memory",
@@ -334,6 +505,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "SCRIPTURE MEMORY CHALLENGE\n\nThis week's verse to memorize:\n\n\"And we know that in all things God works for the good of those who love Him, who have been called according to His purpose.\" — Romans 8:28\n\nChallenge: Memorize this verse by next Sunday. Write it on a sticky note. Say it out loud every morning.\n\nComment \"I'M IN\" if you're taking the challenge!",
     hashtags: "#LivingWater #ScriptureMemory #Romans828 #MemorizeScripture #BibleChallenge #ChristianCommunity",
     bibleRef: "Romans 8:28",
+    format: "carousel",
+    music: "\"Word of God Speak\" by MercyMe — quiet, encouraging, meditative",
+    slides: [
+      "Slide 1: Navy background with cream text. Playfair Display large: 'SCRIPTURE MEMORY CHALLENGE'. Inter below: 'This week's verse to memorize'. A brain/lightbulb icon in cream line art. Bold, engaging, call-to-action feel.",
+      "Slide 2: Cream background. Large Playfair Display italic in navy: '\"And we know that in all things God works for the good of those who love Him, who have been called according to His purpose.\"' Inter small caps: 'Romans 8:28'. The verse fills the slide — designed to be screenshot-worthy.",
+      "Slide 3: White background with navy and gold accents. Inter regular in navy: 'Challenge: Memorize this by next Sunday. Write it on a sticky note. Say it out loud every morning.' Below in Playfair Display italic: 'Comment \"I'M IN\" if you're taking the challenge!' LivingWater mark. Motivating, community-driven.",
+    ],
   },
 
   // === APRIL 13 (Monday) ===
@@ -348,6 +526,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Your past doesn't define you. Christ does.\n\n\"Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!\" — 2 Corinthians 5:17\n\nYou are not who you used to be. You are who God says you are.",
     hashtags: "#LivingWater #VerseOfTheDay #2Corinthians5 #NewCreation #IdentityInChrist #BibleVerse",
     bibleRef: "2 Corinthians 5:17",
+    format: "carousel",
+    music: "\"New Creation\" by Leeland — fresh, uplifting, identity-focused",
+    slides: [
+      "Slide 1: Fresh white-to-soft-mint gradient. Playfair Display in navy: 'NEW CREATION'. Inter light below: 'Verse of the Day — April 13'. A butterfly or emerging leaf motif in muted navy line art. Fresh, renewing, hopeful.",
+      "Slide 2: Cream background with soft green watercolor wash at edges. Playfair Display italic in navy, large: '\"Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!\"' Inter small caps: '2 Corinthians 5:17'. Bold, declarative.",
+      "Slide 3: White background with warm gold accent at bottom. Inter regular in navy: 'Your past doesn't define you. Christ does. You are not who you used to be. You are who God says you are.' Thin navy rule. 'Corinthians 5:17' in Playfair Display small caps. LivingWater mark. Liberating close.",
+    ],
   },
   {
     id: "apr-13-gospel",
@@ -360,6 +545,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "GOOD NEWS MONDAY\n\n\"For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life.\" — John 3:16\n\nGod. So. Loved. The. World.\n\nNot just the good people. Not just the religious people. The WORLD. That includes you — right where you are, right as you are.\n\nThis is the Good News. God's love is not earned. It's given.",
     hashtags: "#LivingWater #GoodNewsMonday #John316 #GodsLove #Gospel #GoodNews #Jesus #Salvation",
     bibleRef: "John 3:16",
+    format: "carousel",
+    music: "\"How He Loves\" by John Mark McMillan — overflowing love, emotional, raw",
+    slides: [
+      "Slide 1: Deep navy background with warm golden glow from center. Playfair Display in cream, very large: 'GOD SO LOVED THE WORLD'. Inter small: 'Good News Monday'. The words feel monumental, like the most important statement ever made. John 3:16 reference in corner.",
+      "Slide 2: Warm cream background with soft golden light. Playfair Display in navy, stacked with generous spacing: 'God. So. Loved. The. World.' Each word on its own line building emphasis. Below in Inter: 'Not just the good people. Not the religious. The WORLD.' Personal, direct.",
+      "Slide 3: Soft sunrise gradient (cream to warm gold). Handwritten-style text in navy: 'That includes you — right where you are, right as you are.' Below in Inter regular: 'God's love is not earned. It's given.' LivingWater mark. Warm, inviting, hopeful close.",
+    ],
   },
 
   // === APRIL 14 (Tuesday) ===
@@ -374,6 +566,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Your weakness is not a disqualification. It's an invitation.\n\n\"My grace is sufficient for you, for my power is made perfect in weakness.\" — 2 Corinthians 12:9\n\nWhen you feel like you're not enough — that's exactly where God shows up.",
     hashtags: "#LivingWater #VerseOfTheDay #2Corinthians12 #Grace #Weakness #GodsStrength #BibleVerse",
     bibleRef: "2 Corinthians 12:9",
+    format: "carousel",
+    music: "\"Hymn of Heaven\" by Phil Wickham — ethereal, powerful, grace-filled",
+    slides: [
+      "Slide 1: Muted navy-to-cream gradient. Playfair Display in cream: 'STRENGTH IN WEAKNESS'. Inter light below: 'Verse of the Day — April 14'. A cracked vessel with gold light shining through (kintsugi concept) as subtle motif. Beautiful in brokenness.",
+      "Slide 2: Cream background. Large Playfair Display italic in navy: '\"My grace is sufficient for you, for my power is made perfect in weakness.\"' Inter small caps: '2 Corinthians 12:9'. The verse is given maximum space and weight.",
+      "Slide 3: White background with soft gold gradient. Inter regular in navy: 'Your weakness is not a disqualification. It's an invitation. When you feel like you're not enough — that's exactly where God shows up.' Thin navy rule. LivingWater mark. Empowering, tender close.",
+    ],
   },
   {
     id: "apr-14-testimony",
@@ -386,6 +585,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "TESTIMONY TUESDAY: Ruth\n\nShe lost her husband. She was a foreigner. She had nothing.\n\nBut Ruth clung to Naomi and said: \"Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.\" — Ruth 1:16\n\nGod took a woman with nothing and placed her in the lineage of Jesus Christ.\n\nYour story isn't over. God can redeem anything — even your deepest loss.",
     hashtags: "#LivingWater #TestimonyTuesday #Ruth #BibleStory #Redemption #GodsGrace #Faith",
     bibleRef: "Ruth 1:16",
+    format: "carousel",
+    music: "\"Oceans\" by Hillsong UNITED — instrumental, slow, waves of emotion building",
+    slides: [
+      "Slide 1: Deep espresso-brown background with soft golden vignette. Playfair Display in cream, large: 'RUTH'. Below in Inter light italic: 'Testimony Tuesday — Faithfulness in Loss'. A subtle wheat field motif in muted gold at bottom. Warm, intimate, grounded.",
+      "Slide 2: Dark warm background. Inter regular in cream, appearing with weight: 'She lost her husband.' / 'She was a foreigner.' / 'She had nothing.' Each line on its own with generous spacing. Heavy, real, vulnerable. The loss is felt.",
+      "Slide 3: Background warms from dark to amber. Playfair Display italic in gold: '\"Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.\"' Inter small caps: 'Ruth 1:16'. Golden light blooming in. The turning point — loyalty and faith shining through darkness.",
+      "Slide 4: Warm cream background with gold accents. Inter regular in navy: 'God took a woman with nothing and placed her in the lineage of Jesus Christ.' Below a thin gold line, Playfair Display italic: 'Your story isn't over. God can redeem anything.' LivingWater mark. Hopeful, redemptive close.",
+    ],
   },
 
   // === APRIL 15 (Wednesday) ===
@@ -400,6 +607,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "You don't need to see the whole staircase — just the next step.\n\n\"Your word is a lamp for my feet, a light on my path.\" — Psalm 119:105\n\nGod doesn't always show you the destination. But He always lights the next step.",
     hashtags: "#LivingWater #VerseOfTheDay #Psalm119 #GodsWord #Guidance #Light #BibleVerse",
     bibleRef: "Psalm 119:105",
+    format: "carousel",
+    music: "\"Thy Word\" by Amy Grant — classic, guiding, warm nostalgia",
+    slides: [
+      "Slide 1: Dark navy background with a single warm golden lantern glow at center. Playfair Display in cream: 'LAMP TO MY FEET'. Inter light below: 'Verse of the Day — April 15'. The darkness around the light is intentional — you only see the next step.",
+      "Slide 2: Dark-to-warm gradient. Large Playfair Display italic in cream: '\"Your word is a lamp for my feet, a light on my path.\"' Inter small caps: 'Psalm 119:105'. The verse glows warmly against the darker background. Intimate, guiding.",
+      "Slide 3: Cream background with soft golden light at bottom. Inter regular in navy: 'God doesn't always show you the destination. But He always lights the next step.' Thin navy rule. 'Psalm 119:105' in Playfair Display small caps. LivingWater mark. Reassuring, faithful close.",
+    ],
   },
   {
     id: "apr-15-word",
@@ -412,6 +626,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "WORD STUDY: LOGOS\n\nThe Greek word 'Logos' (λόγος) means 'word, reason, plan.' But in John 1, it means something far greater:\n\n\"In the beginning was the Logos, and the Logos was with God, and the Logos was God.\" — John 1:1\n\n\"The Logos became flesh and made his dwelling among us.\" — John 1:14\n\nJesus IS the Logos — God's eternal Word made flesh. When you read Scripture, you're not just reading a book. You're encountering a Person.",
     hashtags: "#LivingWater #WordStudy #Logos #TheWord #John1 #GreekWord #Jesus #BiblicalGreek #Theology",
     bibleRef: "John 1:1, 14",
+    format: "carousel",
+    music: "\"Holy, Holy, Holy\" by Audrey Assad — reverent, awe-inspiring, theological depth",
+    slides: [
+      "Slide 1: Rich deep blue background with subtle golden light rays. 'LOGOS' in large Playfair Display cream text. Greek 'λόγος' above in elegant gold script. Inter light below: 'Word Study Wednesday'. Faint ancient manuscript texture. Scholarly yet beautiful.",
+      "Slide 2: Warm parchment background with ink-style lettering. Playfair Display in navy: 'Word / Reason / Divine Plan' in layered typography. Below in Inter: 'But in John 1, Logos means something far greater...' Ancient depth meeting modern clarity.",
+      "Slide 3: Background transitions from cosmic starfield at top to warm candlelight at bottom. Playfair Display italic in cream/gold: '\"In the beginning was the Logos... and the Logos was God.\"' Below: '\"The Logos became flesh.\"' With 'Logos' highlighted in gold. John 1:1, 14 references. Awe-inspiring, incarnational.",
+      "Slide 4: Warm cream background with open Bible watercolor motif and golden light. Inter regular in navy: 'Jesus IS the Logos — God's eternal Word made flesh. When you read Scripture, you're not just reading a book. You're encountering a Person.' Inter italic: 'Lord, as I read Your Word, let me encounter You.' LivingWater mark. Intimate, reverent.",
+    ],
   },
 
   // === APRIL 16 (Thursday) ===
@@ -426,6 +648,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "The evidence of the Holy Spirit in your life:\n\n\"But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.\" — Galatians 5:22-23\n\nWhich one is God growing in you right now?",
     hashtags: "#LivingWater #VerseOfTheDay #Galatians5 #FruitOfTheSpirit #HolySpirit #ChristianLiving",
     bibleRef: "Galatians 5:22-23",
+    format: "carousel",
+    music: "\"Holy Spirit\" by Francesca Battistelli — inviting, gentle, Spirit-focused",
+    slides: [
+      "Slide 1: Soft multi-toned gradient (cream to sage to warm gold). Playfair Display in navy: 'FRUIT OF THE SPIRIT'. Inter light below: 'Verse of the Day — April 16'. Nine small botanical fruit/leaf icons in a gentle arc. Colorful yet elegant.",
+      "Slide 2: Cream background. Playfair Display italic in navy, large: '\"But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control.\"' Each fruit word could have a subtle different warm color accent. Inter small caps: 'Galatians 5:22-23'. Beautiful, full, abundant.",
+      "Slide 3: White background with soft warm gradient. Inter regular in navy: 'The evidence of the Holy Spirit in your life. Which one is God growing in you right now?' Thin navy rule. 'Galatians 5:22-23' in Playfair Display small caps. LivingWater mark. Inviting, reflective close.",
+    ],
   },
   {
     id: "apr-16-fruit",
@@ -438,6 +667,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "FRUIT OF THE SPIRIT: JOY (Part 2/9)\n\n\"...joy...\" — Galatians 5:22\n\nJoy is not happiness. Happiness depends on what happens. Joy depends on who God is.\n\nPaul wrote about joy from a prison cell (Philippians). Habakkuk sang for joy when the harvest failed (Hab 3:17-18).\n\nBiblical joy says: \"Even though life is hard, God is still good.\"\n\n\"The joy of the Lord is your strength.\" — Nehemiah 8:10\n\nJoy isn't the absence of pain — it's the presence of God in the midst of it.",
     hashtags: "#LivingWater #FruitOfTheSpirit #Joy #Galatians5 #Nehemiah8 #ChristianJoy #SpiritualGrowth",
     bibleRef: "Nehemiah 8:10",
+    format: "carousel",
+    music: "\"Joy of the Lord\" by Rend Collective — upbeat, infectious, celebratory",
+    slides: [
+      "Slide 1: Radiant golden-yellow gradient with soft light flares. 'JOY' in very large Playfair Display bold navy text, centered. Inter light below: 'Fruit of the Spirit — Part 2/9'. Botanical accents in warm tones. Bright, warm, celebratory.",
+      "Slide 2: Warm cream background with sunlight feel. Playfair Display in navy: 'Joy is not happiness.' Inter regular below: 'Happiness depends on what happens. Joy depends on who God is.' Below: 'Nehemiah 8:10 — The joy of the Lord is your strength.' Clean, clear contrast.",
+      "Slide 3: Warm golden background with subtle chains-breaking-into-light imagery. Inter regular in navy: 'Paul wrote about joy from a prison cell. Habakkuk sang when the harvest failed.' Playfair Display italic: 'Biblical joy says: Even though life is hard, God is still good.' Powerful contrast of circumstances and joy.",
+      "Slide 4: Soft morning light background (cream to warm gold). Inter regular in navy: 'Joy isn't the absence of pain — it's the presence of God in the midst of it.' Below: 'This week: Choose joy before your circumstances change. Thank God for 3 things every morning.' LivingWater mark. Encouraging, actionable.",
+    ],
   },
 
   // === APRIL 17 (Friday) ===
@@ -452,6 +689,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Stop worrying about tomorrow. Your Provider is already there.\n\n\"And my God will meet all your needs according to the riches of his glory in Christ Jesus.\" — Philippians 4:19\n\nHe's never been late. He's never run out. He knows exactly what you need.",
     hashtags: "#LivingWater #VerseOfTheDay #Philippians4 #GodsProvision #TrustGod #BibleVerse #Faith",
     bibleRef: "Philippians 4:19",
+    format: "carousel",
+    music: "\"Provider\" by Elevation Worship — trusting, steady, provision-themed",
+    slides: [
+      "Slide 1: Warm gold-to-cream gradient. Playfair Display in navy: 'GOD WILL SUPPLY'. Inter light below: 'Verse of the Day — April 17'. A subtle overflowing cup motif in muted gold line art. Abundant, warm, reassuring.",
+      "Slide 2: Cream background. Large Playfair Display italic in navy: '\"And my God will meet all your needs according to the riches of his glory in Christ Jesus.\"' Inter small caps: 'Philippians 4:19'. Rich, full, generous spacing.",
+      "Slide 3: White background with warm golden gradient at bottom. Inter regular in navy: 'He's never been late. He's never run out. He knows exactly what you need.' Thin navy rule. 'Philippians 4:19' in Playfair Display small caps. LivingWater mark. Reassuring, faith-filled close.",
+    ],
   },
   {
     id: "apr-17-visual",
@@ -464,6 +708,12 @@ const APRIL_2026: ContentItem[] = [
     caption: "\"The Lord is my light and my salvation — whom shall I fear? The Lord is the stronghold of my life — of whom shall I be afraid?\" — Psalm 27:1\n\nSave this for those moments when fear tries to creep in.\n\nYou are held by the Light of the world.",
     hashtags: "#LivingWater #VerseCard #Psalm27 #Light #NeverAfraid #BibleVerse #ChristianArt",
     bibleRef: "Psalm 27:1",
+    format: "carousel",
+    music: "\"Great Are You Lord\" by All Sons & Daughters — luminous, awe-filled, radiant",
+    slides: [
+      "Slide 1: Dramatic sunrise gradient — deep navy at top transitioning to warm golden-orange at bottom. Playfair Display italic in cream, large: '\"The Lord is my light and my salvation — whom shall I fear?\"' The light imagery IS the background. Breathtaking, bold, cinematic.",
+      "Slide 2: Cream background with soft golden light emanating from center. Inter regular in navy: 'Save this for those moments when fear tries to creep in. You are held by the Light of the world.' Playfair Display small caps: 'Psalm 27:1'. Thin gold decorative line. LivingWater mark. Warm, protective, emboldening.",
+    ],
   },
 
   // === APRIL 18 (Saturday) ===
@@ -478,6 +728,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "When your desire is Him — He gives you the desires of your heart.\n\n\"Delight yourself in the Lord, and He will give you the desires of your heart.\" — Psalm 37:4\n\nThis isn't a formula — it's a relationship. When you delight in Him, your desires align with His.",
     hashtags: "#LivingWater #VerseOfTheDay #Psalm37 #DelightInTheLord #Faith #BibleVerse",
     bibleRef: "Psalm 37:4",
+    format: "carousel",
+    music: "\"King of My Heart\" by Bethel Music — joyful devotion, intimate worship",
+    slides: [
+      "Slide 1: Soft warm peach-to-cream gradient. Playfair Display in navy: 'DELIGHT IN THE LORD'. Inter light below: 'Verse of the Day — April 18'. A subtle heart intertwined with a vine motif in muted navy. Joyful, relational, warm.",
+      "Slide 2: Cream background. Large Playfair Display italic in navy: '\"Delight yourself in the Lord, and He will give you the desires of your heart.\"' Inter small caps: 'Psalm 37:4'. Warm, spacious, the promise fills the frame.",
+      "Slide 3: White background with peach gradient at bottom. Inter regular in navy: 'This isn't a formula — it's a relationship. When you delight in Him, your desires align with His.' Thin navy rule. 'Psalm 37:4' in Playfair Display small caps. LivingWater mark. Relational, warm close.",
+    ],
   },
   {
     id: "apr-18-psalm",
@@ -490,6 +747,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "PSALM SPOTLIGHT: Psalm 139\n\n\"I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.\" — Psalm 139:14\n\nGod formed you in the womb. He knows your thoughts before you think them. He's counted every hair on your head.\n\nYou are not an accident. You are not a mistake. You are a masterpiece — handcrafted by the Creator of the universe.\n\n\"Where can I go from your Spirit? Where can I flee from your presence?\" — Psalm 139:7\n\nNowhere. And that's the most comforting truth you'll hear today.",
     hashtags: "#LivingWater #PsalmSpotlight #Psalm139 #FearfullyMade #Identity #GodsLove #YouAreLoved",
     bibleRef: "Psalm 139:14",
+    format: "carousel",
+    music: "\"You Say\" by Lauren Daigle — identity-affirming, personal, emotional",
+    slides: [
+      "Slide 1: Soft blush and cream watercolor background. Playfair Display in navy: 'PSALM 139'. Below in Inter: 'Fearfully & Wonderfully Made'. Playfair Display italic: '\"I praise you because I am fearfully and wonderfully made.\"' Delicate floral accents at edges. Warm gold accent on 'wonderfully'. Intimate, beautiful.",
+      "Slide 2: Warm peach-to-cream gradient. Inter regular in navy: 'God formed you in the womb. He knows your thoughts before you think them. He's counted every hair on your head.' Each sentence given its own line. Deeply personal, tender. Subtle heartbeat line motif in soft pink.",
+      "Slide 3: Background of vast starry sky at top transitioning to warm golden light at bottom — God's omnipresence from cosmos to intimate. Playfair Display italic in cream: '\"Where can I go from your Spirit?\"' Inter below: 'Nowhere. And that's the most comforting truth you'll hear today.' Playfair Display in warm gold: 'You are a masterpiece.' LivingWater mark. Affirming, empowering.",
+    ],
   },
 
   // === APRIL 19 (Sunday) ===
@@ -504,6 +768,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "This is your Sunday reminder:\n\n\"Let everything that has breath praise the Lord. Praise the Lord!\" — Psalm 150:6\n\nYou're breathing. That means you have reason to praise Him today.",
     hashtags: "#LivingWater #VerseOfTheDay #Psalm150 #Praise #Worship #Sunday #BibleVerse",
     bibleRef: "Psalm 150:6",
+    format: "carousel",
+    music: "\"10,000 Reasons\" by Matt Redman — timeless worship anthem, bright and grateful",
+    slides: [
+      "Slide 1: Bright white background with gold musical note accents and decorative lines. Playfair Display in navy: 'LET EVERYTHING PRAISE'. Inter light below: 'Verse of the Day — Sunday'. Celebratory, exuberant, worshipful. Gold and navy palette.",
+      "Slide 2: Cream background with gold accents. Large Playfair Display italic in navy: '\"Let everything that has breath praise the Lord. Praise the Lord!\"' Inter small caps in gold: 'Psalm 150:6'. Exclamation marks feel joyful, not aggressive. Bold worship energy.",
+      "Slide 3: White background with warm gold gradient. Inter regular in navy: 'You're breathing. That means you have reason to praise Him today.' Thin gold decorative line. 'Psalm 150:6' in Playfair Display small caps. LivingWater mark in gold. Grateful, joyful close.",
+    ],
   },
   {
     id: "apr-19-memory",
@@ -516,6 +787,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "SCRIPTURE MEMORY CHECK-IN\n\nDid you memorize Romans 8:28 this week? Drop it in the comments from memory!\n\n\"And we know that in all things God works for the good of those who love Him, who have been called according to His purpose.\"\n\nNEW VERSE for this week:\n\n\"I can do all things through Christ who strengthens me.\" — Philippians 4:13\n\nComment \"I'M IN\" if you're taking this week's challenge!",
     hashtags: "#LivingWater #ScriptureMemory #Philippians413 #BibleChallenge #MemorizeScripture #Community",
     bibleRef: "Philippians 4:13",
+    format: "carousel",
+    music: "\"Forever\" by Kari Jobe — encouraging, communal, uplifting",
+    slides: [
+      "Slide 1: Navy background with cream text. Playfair Display: 'SCRIPTURE MEMORY CHECK-IN'. Inter below: 'Did you memorize Romans 8:28? Drop it in the comments!' Checkmark icon in gold. Engaging, community-focused. Warm gold accent line.",
+      "Slide 2: Cream background. Playfair Display italic in navy, large: '\"I can do all things through Christ who strengthens me.\"' Inter small caps: 'Philippians 4:13'. Header in Inter bold: 'NEW VERSE — This Week'. The verse is designed to be screenshotted and saved.",
+      "Slide 3: White background with navy and gold accents. Inter regular in navy: 'Challenge: Memorize Philippians 4:13 by next Sunday.' Below in Playfair Display italic: 'Comment \"I'M IN\" if you're taking the challenge!' LivingWater mark. Motivating, communal close.",
+    ],
   },
 
   // === APRIL 20 (Monday) ===
@@ -530,6 +808,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "New week, same priority:\n\n\"But seek first His kingdom and His righteousness, and all these things will be given to you as well.\" — Matthew 6:33\n\nPut God first this week. Everything else will fall into place.",
     hashtags: "#LivingWater #VerseOfTheDay #Matthew6 #SeekFirst #KingdomOfGod #Monday #Faith",
     bibleRef: "Matthew 6:33",
+    format: "carousel",
+    music: "\"First\" by Hillsong Worship — priority, devotion, surrendering all",
+    slides: [
+      "Slide 1: Clean navy background with a subtle crown motif in dark gold. Playfair Display in cream: 'SEEK FIRST THE KINGDOM'. Inter light below: 'Verse of the Day — April 20'. Royal, focused, intentional.",
+      "Slide 2: Cream background. Large Playfair Display italic in navy: '\"But seek first His kingdom and His righteousness, and all these things will be given to you as well.\"' Inter small caps: 'Matthew 6:33'. Clean, commanding, spacious.",
+      "Slide 3: White background with subtle gold gradient at bottom. Inter regular in navy: 'New week, same priority. Put God first this week. Everything else will fall into place.' Thin navy rule. 'Matthew 6:33' in Playfair Display small caps. LivingWater mark. Focused, grounding close.",
+    ],
   },
   {
     id: "apr-20-gospel",
@@ -542,6 +827,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "GOOD NEWS MONDAY\n\nJesus didn't just die for \"the world.\" He died for YOU.\n\n\"The Son of God, who loved ME and gave Himself for ME.\" — Galatians 2:20\n\nPaul made it personal. So should you.\n\nIf you were the only person on earth, Jesus would have still gone to the cross — just for you.\n\nThat's how much you're worth to Him.",
     hashtags: "#LivingWater #GoodNewsMonday #Galatians2 #PersonalGospel #JesusDiedForMe #GoodNews",
     bibleRef: "Galatians 2:20",
+    format: "carousel",
+    music: "\"So Will I (100 Billion X)\" by Hillsong UNITED — vast yet personal, cinematic love",
+    slides: [
+      "Slide 1: Deep burgundy-to-black gradient with single spotlight of warm golden light from above. Playfair Display in cream: 'HE DIED FOR YOU. PERSONALLY.' Inter light: 'Good News Monday'. Intimate, heavy, personal. The spotlight makes it feel like God is looking directly at you.",
+      "Slide 2: Dark background with warm light growing. Playfair Display italic in gold: '\"The Son of God, who loved ME and gave Himself for ME.\"' with 'ME' emphasized larger in gold. Inter small caps: 'Galatians 2:20'. Below in Inter: 'Paul made it personal. So should you.' Close, intimate.",
+      "Slide 3: Warm amber background with soft cross silhouette backlit by golden light. Inter regular in navy: 'If you were the only person on earth, Jesus would have still gone to the cross — just for you.' Deeply moving, personal. The cross feels intimate, not distant.",
+    ],
   },
 
   // === APRIL 21 (Tuesday) ===
@@ -556,6 +848,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "The clearest command Jesus gave:\n\n\"A new command I give you: Love one another. As I have loved you, so you must love one another.\" — John 13:34\n\nHow has Jesus loved you? Sacrificially. Unconditionally. Endlessly.\n\nGo and do the same.",
     hashtags: "#LivingWater #VerseOfTheDay #John13 #LoveOneAnother #JesusCommand #BibleVerse",
     bibleRef: "John 13:34",
+    format: "carousel",
+    music: "\"Love Like This\" by Lauren Daigle — warm, outward-focused, relational",
+    slides: [
+      "Slide 1: Warm cream background with interlocking circles motif in navy line art (community/unity). Playfair Display in navy: 'LOVE ONE ANOTHER'. Inter light below: 'Verse of the Day — April 21'. Warm, relational, direct.",
+      "Slide 2: Off-white background. Large Playfair Display italic in navy: '\"A new command I give you: Love one another. As I have loved you, so you must love one another.\"' Inter small caps: 'John 13:34'. Simple, powerful. Red-letter feel on 'Love one another'.",
+      "Slide 3: White background with soft warm gradient. Inter regular in navy: 'How has Jesus loved you? Sacrificially. Unconditionally. Endlessly. Go and do the same.' Thin navy rule. 'John 13:34' in Playfair Display small caps. LivingWater mark. Challenging, loving close.",
+    ],
   },
   {
     id: "apr-21-testimony",
@@ -568,6 +867,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "TESTIMONY TUESDAY: David\n\nShepherd boy. Giant killer. King. Adulterer. Murderer. Worshipper.\n\nDavid's life was messy. He made terrible mistakes. But here's what God said about him:\n\n\"I have found David son of Jesse, a man after my own heart; he will do everything I want him to do.\" — Acts 13:22\n\nWhat made David different wasn't perfection — it was repentance. Every time he fell, he ran BACK to God, not away.\n\n\"Create in me a clean heart, O God.\" — Psalm 51:10\n\nGod doesn't need your perfection. He wants your heart.",
     hashtags: "#LivingWater #TestimonyTuesday #David #ManAfterGodsHeart #Psalm51 #Repentance #Grace",
     bibleRef: "Acts 13:22",
+    format: "carousel",
+    music: "\"Broken Vessels (Amazing Grace)\" by Hillsong Worship — brokenness redeemed, raw beauty",
+    slides: [
+      "Slide 1: Deep slate-gray background with warm ember accents at edges. Playfair Display in cream, large: 'DAVID'. Below in Inter light italic: 'Testimony Tuesday — A Man After God's Heart'. A subtle crown and shepherd's staff crossed motif in muted gold. Dramatic, complex, inviting.",
+      "Slide 2: Dark textured background. Inter regular in cream, each word on its own line with impact: 'Shepherd boy. / Giant killer. / King. / Adulterer. / Murderer.' Then in warm gold Playfair Display italic: 'Worshipper.' The contrast is powerful — light breaking through darkness.",
+      "Slide 3: Background shifts from dark to warm amber. Playfair Display italic in gold: '\"A man after my own heart.\"' Inter small caps: 'Acts 13:22'. Below: Inter regular in cream: 'What made David different wasn't perfection — it was repentance. Every time he fell, he ran BACK to God.' Light through cracks motif.",
+      "Slide 4: Warm cream background. Playfair Display italic in navy: '\"Create in me a clean heart, O God.\" — Psalm 51:10' Below a thin navy line, Inter regular: 'God doesn't need your perfection. He wants your heart.' LivingWater mark. Intimate, redemptive, glowing close.",
+    ],
   },
 
   // === APRIL 22 (Wednesday) ===
@@ -582,6 +889,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Every single morning, He gives you a fresh start.\n\n\"Because of the Lord's great love we are not consumed, for His compassions never fail. They are new every morning; great is your faithfulness.\" — Lamentations 3:22-23\n\nYesterday's failures don't carry into today. His mercy resets at dawn.",
     hashtags: "#LivingWater #VerseOfTheDay #Lamentations3 #NewMercies #Faithfulness #Morning #BibleVerse",
     bibleRef: "Lamentations 3:22-23",
+    format: "carousel",
+    music: "\"Great Is Thy Faithfulness\" modern hymn arrangement — classic, dawn-like, renewing",
+    slides: [
+      "Slide 1: Warm sunrise gradient (soft peach to golden to cream). Playfair Display in navy: 'HIS MERCIES ARE NEW'. Inter light below: 'Verse of the Day — April 22'. Subtle rising sun line art at bottom. Fresh, morning, hopeful.",
+      "Slide 2: Cream background with soft peach watercolor wash. Large Playfair Display italic in navy: '\"Because of the Lord's great love we are not consumed, for His compassions never fail. They are new every morning; great is your faithfulness.\"' Inter small caps: 'Lamentations 3:22-23'. Morning warmth.",
+      "Slide 3: White background with golden sunrise gradient at bottom edge. Inter regular in navy: 'Yesterday's failures don't carry into today. His mercy resets at dawn.' Thin navy rule. 'Lamentations 3:22-23' in Playfair Display small caps. LivingWater mark. Fresh, freeing, dawn-like close.",
+    ],
   },
   {
     id: "apr-22-word",
@@ -594,6 +908,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "WORD STUDY: CHARIS\n\nThe Greek word 'Charis' (χάρις) means grace — unearned, undeserved favor.\n\nIt's the word Paul uses more than any other to describe how God saves us:\n\n\"For it is by charis you have been saved, through faith — and this is not from yourselves, it is the gift of God.\" — Ephesians 2:8\n\nGrace means:\n- You can't earn it\n- You don't deserve it\n- You can't lose it\n- It's freely given\n\nGrace is God giving you what you need instead of what you deserve. And it changes everything.",
     hashtags: "#LivingWater #WordStudy #Charis #Grace #GreekWord #Ephesians2 #Gospel #ChristianTeaching",
     bibleRef: "Ephesians 2:8",
+    format: "carousel",
+    music: "\"Your Grace Is Enough\" by Matt Maher — grace-soaked, freeing, anthemic",
+    slides: [
+      "Slide 1: Rich royal purple background with soft golden light radiating outward. 'CHARIS' in large Playfair Display cream text. Greek 'χάρις' above in elegant gold script. Inter light below: 'Word Study Wednesday'. A sense of gift and generosity. Regal, generous.",
+      "Slide 2: Warm cream background with purple and gold accents. Playfair Display in navy, bold stacked: 'Grace: Unearned. Undeserved. Favor.' Each word carries weight. Below in Inter: 'The word Paul uses more than any other to describe salvation.' Clean, weighty.",
+      "Slide 3: Soft watercolor in purples and golds. Playfair Display italic in navy: '\"For it is by charis you have been saved, through faith.\"' with 'charis' highlighted in gold. Inter note: 'Appears 150+ times in the New Testament.' Inter small caps: 'Ephesians 2:8'. Like a royal gift being unwrapped.",
+      "Slide 4: Warm golden background. Inter regular in navy, clean list: 'Grace means: You can't earn it. You don't deserve it. You can't lose it. It's freely given.' Below in Playfair Display italic: 'Grace is God giving you what you need instead of what you deserve.' Inter italic: 'Lord, I receive Your grace today.' LivingWater mark. Warm, freeing, light.",
+    ],
   },
 
   // === APRIL 23 (Thursday) ===
@@ -608,6 +930,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Read this slowly:\n\n\"Neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.\" — Romans 8:38-39\n\nNOTHING. Absolutely nothing.",
     hashtags: "#LivingWater #VerseOfTheDay #Romans8 #GodsLove #NothingCanSeparate #BibleVerse #Secure",
     bibleRef: "Romans 8:38-39",
+    format: "carousel",
+    music: "\"Who You Say I Am\" by Hillsong Worship — secure, identity-grounding, unshakeable",
+    slides: [
+      "Slide 1: Bold navy background with strong gold border. Playfair Display in cream, large: 'NOTHING CAN SEPARATE US'. Inter light below: 'Verse of the Day — April 23'. Confident, bold, unshakeable. The design feels like a fortress.",
+      "Slide 2: Navy background with cream text. Large Playfair Display italic: '\"Neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God.\"' Inter small caps: 'Romans 8:38-39'. The verse fills the entire slide.",
+      "Slide 3: Cream background with bold navy text. Playfair Display, very large: 'NOTHING.' Inter regular below: 'Absolutely nothing.' Thin gold decorative line. 'Romans 8:38-39' in Inter small caps. LivingWater mark. The simplicity lands like a hammer. Confident, secure.",
+    ],
   },
   {
     id: "apr-23-fruit",
@@ -620,6 +949,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "FRUIT OF THE SPIRIT: PEACE (Part 3/9)\n\n\"...peace...\" — Galatians 5:22\n\nJesus was sleeping in a boat during a storm. The disciples panicked. He woke up and said: \"Peace, be still.\" (Mark 4:39)\n\nBiblical peace isn't the absence of trouble — it's the presence of Jesus in the middle of it.\n\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives.\" — John 14:27\n\nThe world's peace depends on circumstances. God's peace surpasses understanding (Phil 4:7).\n\nLet His peace guard your heart today.",
     hashtags: "#LivingWater #FruitOfTheSpirit #Peace #Galatians5 #John14 #InnerPeace #ChristianLiving",
     bibleRef: "John 14:27",
+    format: "carousel",
+    music: "\"It Is Well\" by Bethel Music — calm waters after the storm, deeply peaceful",
+    slides: [
+      "Slide 1: Serene blue-to-teal gradient with soft rippling water reflections. 'PEACE' in very large Playfair Display bold navy text, centered. Inter light below: 'Fruit of the Spirit — Part 3/9'. Botanical olive branch accents in cream. Calm, still, beautiful.",
+      "Slide 2: Soft blue-silver background. Playfair Display in navy: 'Peace is not the absence of storms.' Inter regular below: 'It's the presence of Jesus in the storm.' Playfair Display italic: '\"Peace, be still.\" — Mark 4:39'. Calm sea imagery with gentle blues. Powerful yet serene.",
+      "Slide 3: Deep blue background with a small boat silhouette on calm waters under starlight. Inter regular in cream: 'Jesus slept in the storm. He wasn't anxious. He was at peace — because He knew who was in control.' Intimate, reassuring. The stars reflect on still water.",
+      "Slide 4: Warm cream background with soft blue accents. Inter regular in navy: 'This week: When anxiety rises, pause. Breathe. Whisper: \"Peace, be still.\" Let His peace guard your heart.' Playfair Display italic: 'Philippians 4:7'. LivingWater mark. Calming, practical, soothing close.",
+    ],
   },
 
   // === APRIL 24 (Friday) ===
@@ -634,6 +971,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Jesus didn't say He would SHOW the way. He said He IS the way.\n\n\"I am the way and the truth and the life. No one comes to the Father except through me.\" — John 14:6\n\nNot a way. THE Way.",
     hashtags: "#LivingWater #VerseOfTheDay #John14 #TheWay #Jesus #Truth #Life #BibleVerse",
     bibleRef: "John 14:6",
+    format: "carousel",
+    music: "\"The Way\" by Pat Barrett — direct, declarative, Jesus-centered",
+    slides: [
+      "Slide 1: Clean white background with bold navy and a subtle red accent (red-letter feel). Playfair Display in navy: 'I AM THE WAY'. Inter light below: 'Verse of the Day — April 24'. A simple path/arrow motif in muted red. Bold, direct, declarative.",
+      "Slide 2: White background with soft warm light. Large Playfair Display italic in deep red (red-letter words of Christ): '\"I am the way and the truth and the life. No one comes to the Father except through me.\"' Inter small caps in navy: 'John 14:6'. The red-letter treatment honors Jesus's direct words.",
+      "Slide 3: Cream background. Inter regular in navy: 'Not a way. THE Way.' Bold, punchy, two sentences. Thin navy rule. 'John 14:6' in Playfair Display small caps. LivingWater mark. The brevity is the power. Confident, absolute close.",
+    ],
   },
   {
     id: "apr-24-prayer",
@@ -646,6 +990,12 @@ const APRIL_2026: ContentItem[] = [
     caption: "PRAYER REQUEST THREAD\n\nDrop your prayer request below. Our community will pray with you and for you.\n\nNo request is too big or too small. God hears every word.\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\" — Philippians 4:6\n\nYou are not alone. We are praying.",
     hashtags: "#LivingWater #PrayerRequest #PrayerThread #WePray #Community #Philippians4 #Prayer",
     bibleRef: "Philippians 4:6",
+    format: "carousel",
+    music: "\"What A Friend We Have In Jesus\" modern piano instrumental — prayerful, warm, communal",
+    slides: [
+      "Slide 1: Soft warm cream background with praying hands line art in muted navy. Playfair Display in navy: 'PRAYER REQUEST THREAD'. Inter below: 'Drop your prayer request below. Our community will pray with you and for you.' Inviting, safe, warm. Gold accent line.",
+      "Slide 2: Cream background with soft golden light. Playfair Display italic in navy: '\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\"' Inter small caps: 'Philippians 4:6'. Below in Inter bold: 'You are not alone. We are praying.' LivingWater mark. Communal, prayerful, reassuring.",
+    ],
   },
 
   // === APRIL 25 (Saturday) ===
@@ -660,6 +1010,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "God said this to Joshua. He's saying it to you today:\n\n\"Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.\" — Joshua 1:9\n\nWherever. You. Go. He's there.",
     hashtags: "#LivingWater #VerseOfTheDay #Joshua1 #BeStrong #Courage #GodsPresence #BibleVerse",
     bibleRef: "Joshua 1:9",
+    format: "carousel",
+    music: "\"Graves Into Gardens\" by Elevation Worship — courageous, transformational, bold",
+    slides: [
+      "Slide 1: Bold navy background with a subtle mountain range silhouette at bottom in dark gold. Playfair Display in cream: 'BE STRONG AND COURAGEOUS'. Inter light below: 'Verse of the Day — April 25'. Commanding, bold, adventurous.",
+      "Slide 2: Navy background. Large Playfair Display italic in cream: '\"Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.\"' Inter small caps: 'Joshua 1:9'. Authoritative, emboldening.",
+      "Slide 3: Cream background. Inter regular in navy, with emphasis: 'Wherever. You. Go. He's there.' Each word punctuated. Thin navy rule. 'Joshua 1:9' in Playfair Display small caps. LivingWater mark. Punchy, courageous close.",
+    ],
   },
   {
     id: "apr-25-psalm",
@@ -672,6 +1029,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "PSALM SPOTLIGHT: Psalm 23\n\n\"The Lord is my shepherd, I lack nothing.\nHe makes me lie down in green pastures,\nHe leads me beside quiet waters,\nHe refreshes my soul.\"\n\nThis Psalm has comforted millions for 3,000 years. Why? Because it reminds us:\n\n- He provides (\"I lack nothing\")\n- He leads (\"beside quiet waters\")\n- He restores (\"refreshes my soul\")\n- He protects (\"valley of the shadow of death\")\n- He blesses (\"my cup overflows\")\n\n\"Surely goodness and love will follow me all the days of my life.\" — Psalm 23:6\n\nYou are shepherded by the King of Kings.",
     hashtags: "#LivingWater #PsalmSpotlight #Psalm23 #GoodShepherd #GodsProvision #Comfort #BibleStudy",
     bibleRef: "Psalm 23",
+    format: "carousel",
+    music: "\"Shepherd\" by Bethel Music — pastoral, gentle, like green pastures and still waters",
+    slides: [
+      "Slide 1: Lush green-to-gold pastoral gradient with soft golden light. Playfair Display in navy: 'PSALM 23'. Below in Inter: 'The Good Shepherd'. Playfair Display italic: '\"The Lord is my shepherd, I lack nothing.\"' Peaceful, classic, timeless. Subtle pastoral landscape silhouette.",
+      "Slide 2: Soft green and gold watercolor background. The five promises in Inter regular navy, beautifully listed: 'He provides. He leads. He restores. He protects. He blesses.' Each with Psalm 23 sub-reference. Generous spacing. Each promise feels like a gift being unwrapped. Flowing, gentle.",
+      "Slide 3: Warm sunset over green hills as color gradient. Playfair Display italic in navy: '\"Surely goodness and love will follow me all the days of my life.\"' Inter small caps: 'Psalm 23:6'. Below: 'You are shepherded by the King of Kings.' LivingWater mark. Warm, safe, deeply comforting close.",
+    ],
   },
 
   // === APRIL 26 (Sunday) ===
@@ -686,6 +1050,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Whatever you think is impossible:\n\n\"With man this is impossible, but with God all things are possible.\" — Matthew 19:26\n\nYour impossibility is God's opportunity.",
     hashtags: "#LivingWater #VerseOfTheDay #Matthew19 #AllThingsPossible #Faith #Sunday #Hope",
     bibleRef: "Matthew 19:26",
+    format: "carousel",
+    music: "\"Do It Again\" by Elevation Worship — faith-building, expectant, hopeful",
+    slides: [
+      "Slide 1: White background with bold gold starburst element at center. Playfair Display in navy: 'ALL THINGS ARE POSSIBLE'. Inter light below: 'Verse of the Day — Sunday'. Bright, hopeful, bold energy. The gold radiates possibility.",
+      "Slide 2: Cream background. Large Playfair Display italic in navy: '\"With man this is impossible, but with God all things are possible.\"' Inter small caps in gold: 'Matthew 19:26'. The word 'possible' in warm gold. Bold, faith-igniting.",
+      "Slide 3: White background with soft gold gradient. Inter regular in navy: 'Your impossibility is God's opportunity.' Thin gold decorative line. 'Matthew 19:26' in Playfair Display small caps. LivingWater mark in gold. Punchy, faith-filled close.",
+    ],
   },
   {
     id: "apr-26-learned",
@@ -698,6 +1069,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "THIS WEEK I LEARNED...\n\nGod's timing doesn't always match mine — and that's okay.\n\nThis week I was reminded that waiting on God isn't wasted time. He's always preparing something better than what I planned.\n\n\"He has made everything beautiful in its time.\" — Ecclesiastes 3:11\n\nWhat's something God taught you this week? Share below!",
     hashtags: "#LivingWater #ThisWeekILearned #GodsTiming #Ecclesiastes3 #SpiritualGrowth #Community",
     bibleRef: "Ecclesiastes 3:11",
+    format: "carousel",
+    music: "\"While I Wait\" by Lincoln Brewster — patient, trusting, reflective",
+    slides: [
+      "Slide 1: Warm cream background with navy text. Playfair Display: 'THIS WEEK I LEARNED...' Below in Inter italic: 'God's timing doesn't always match mine — and that's okay.' A subtle clock/hourglass motif in muted navy line art. Reflective, personal, inviting.",
+      "Slide 2: Cream background with soft gold watercolor wash. Playfair Display italic in navy: '\"He has made everything beautiful in its time.\"' Inter small caps: 'Ecclesiastes 3:11'. Below in Inter regular: 'Waiting on God isn't wasted time. He's always preparing something better.' Warm, patient, trusting.",
+      "Slide 3: White background with warm gradient. Inter regular in navy: 'What's something God taught you this week? Share below!' Playfair Display italic below: 'Let's grow together.' LivingWater mark. Community-driven, inviting, warm close.",
+    ],
   },
 
   // === APRIL 27 (Monday) ===
@@ -712,6 +1090,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Not in your strength. In His.\n\n\"I can do all things through Christ who strengthens me.\" — Philippians 4:13\n\nThis verse isn't about doing anything you want. It's about doing everything God calls you to — because His power is in you.",
     hashtags: "#LivingWater #VerseOfTheDay #Philippians413 #ChristStrengthensMe #Faith #BibleVerse",
     bibleRef: "Philippians 4:13",
+    format: "carousel",
+    music: "\"Unstoppable God\" by Elevation Worship — strong, energized, empowering",
+    slides: [
+      "Slide 1: Strong navy background with bold gold accents. Playfair Display in cream: 'I CAN DO ALL THINGS'. Inter light below: 'Verse of the Day — April 27'. A subtle upward arrow motif in gold. Strong, empowered, confident.",
+      "Slide 2: Navy background. Large Playfair Display italic in cream: '\"I can do all things through Christ who strengthens me.\"' Inter small caps in gold: 'Philippians 4:13'. Bold, centered, powerful. The verse stands alone with authority.",
+      "Slide 3: Cream background. Inter regular in navy: 'This verse isn't about doing anything you want. It's about doing everything God calls you to — because His power is in you.' Thin navy rule. 'Philippians 4:13' in Playfair Display small caps. LivingWater mark. Clarifying, empowering close.",
+    ],
   },
   {
     id: "apr-27-gospel",
@@ -724,6 +1109,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "GOOD NEWS MONDAY\n\nThat thing you did that keeps you up at night? That shame you carry?\n\nJesus already paid for it.\n\n\"If we confess our sins, He is faithful and just and will forgive us our sins and purify us from all unrighteousness.\" — 1 John 1:9\n\nYou don't need to earn forgiveness. You just need to receive it.\n\nToday, let go of the guilt. He already let go of the sin.",
     hashtags: "#LivingWater #GoodNewsMonday #Forgiveness #1John1 #Grace #FreedomInChrist #GoodNews",
     bibleRef: "1 John 1:9",
+    format: "carousel",
+    music: "\"Tremble\" by Mosaic MSC — chains breaking, freedom rising, powerful release",
+    slides: [
+      "Slide 1: Dark-to-light gradient — heavy charcoal breaking into warm golden light. Playfair Display in cream: 'YOU ARE FORGIVEN.' Inter light: 'Good News Monday'. Feels like chains falling away. Powerful, freeing, liberating.",
+      "Slide 2: Dark moody background with warm light growing. Inter regular in cream: 'That thing that keeps you up at night? That shame you carry?' Below in Playfair Display italic gold: 'Jesus already paid for it.' Light breaking through darkness. Vulnerable, honest, redemptive.",
+      "Slide 3: Warm cream background with soft golden accents. Playfair Display italic in navy: '\"If we confess our sins, He is faithful and just and will forgive us our sins and purify us from all unrighteousness.\"' Key words 'confess... faithful... forgive... purify' could be slightly bolder. Inter small caps: '1 John 1:9'. Each word is a step from guilt to freedom.",
+    ],
   },
 
   // === APRIL 28 (Tuesday) ===
@@ -738,6 +1130,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "Whatever is weighing on you — hand it over.\n\n\"Cast all your anxiety on Him because He cares for you.\" — 1 Peter 5:7\n\nHe doesn't just tolerate your burdens. He wants them. Because He cares for YOU.",
     hashtags: "#LivingWater #VerseOfTheDay #1Peter5 #CastYourCares #Anxiety #GodsLove #BibleVerse",
     bibleRef: "1 Peter 5:7",
+    format: "carousel",
+    music: "\"Casting Crowns\" by Casting Crowns — releasing, comforting, unburdening",
+    slides: [
+      "Slide 1: Soft sky-blue-to-white gradient, airy and light. Playfair Display in navy: 'CAST YOUR CARES'. Inter light below: 'Verse of the Day — April 28'. Subtle cloud/sky motif. Light, releasing, calming. Feels like exhaling.",
+      "Slide 2: White background with soft blue wash. Large Playfair Display italic in navy: '\"Cast all your anxiety on Him because He cares for you.\"' Inter small caps: '1 Peter 5:7'. Open, spacious, breathing room. The simplicity calms.",
+      "Slide 3: Cream background with soft blue gradient. Inter regular in navy: 'He doesn't just tolerate your burdens. He wants them. Because He cares for YOU.' Thin navy rule. '1 Peter 5:7' in Playfair Display small caps. LivingWater mark. Gentle, releasing close.",
+    ],
   },
   {
     id: "apr-28-testimony",
@@ -750,6 +1149,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "TESTIMONY TUESDAY: Esther\n\nShe was an orphan. A foreigner. A woman in a man's world.\n\nBut God placed her exactly where she needed to be.\n\nWhen her people faced destruction, Mordecai told her:\n\n\"Who knows whether you have not come to the kingdom for such a time as this?\" — Esther 4:14\n\nEsther risked her life. She approached the king uninvited. And God used her to save an entire nation.\n\nMaybe you feel like you don't belong. Maybe you feel small. But God has placed you exactly where you are — for such a time as this.",
     hashtags: "#LivingWater #TestimonyTuesday #Esther #ForSuchATime #GodsProvidence #BibleStory #Purpose",
     bibleRef: "Esther 4:14",
+    format: "carousel",
+    music: "\"Raise A Hallelujah\" by Bethel Music — courageous, rising, victory in the face of fear",
+    slides: [
+      "Slide 1: Deep royal purple background with golden flecks, like a palace at night. Playfair Display in cream, large: 'ESTHER'. Below in Inter light italic: 'Testimony Tuesday — For Such a Time as This'. A subtle crown silhouette in muted gold. Regal, mysterious, inviting.",
+      "Slide 2: Dark purple background with cream text. Inter regular, each line appearing with weight: 'She was an orphan.' / 'A foreigner.' / 'A woman in a man's world.' Each line on its own with generous spacing. Heavy, vulnerable, real. The odds stacked against her.",
+      "Slide 3: Background shifts from dark to golden palace light. Playfair Display italic in gold, large and centered: '\"For such a time as this.\"' Inter small caps: 'Esther 4:14'. Below in Inter: 'She risked her life. She approached the king. God used her to save a nation.' Crown motif glowing. The turning point — vulnerability becoming courage.",
+      "Slide 4: Warm cream background with golden accents. Inter regular in navy: 'Maybe you feel like you don't belong. Maybe you feel small. But God has placed you exactly where you are.' Playfair Display italic below: 'For such a time as this.' LivingWater mark in gold. Empowering, purposeful close.",
+    ],
   },
 
   // === APRIL 29 (Wednesday) ===
@@ -764,6 +1171,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "He has never failed you. He never will.\n\n\"The steadfast love of the Lord never ceases; His mercies never come to an end; they are new every morning; great is your faithfulness.\" — Lamentations 3:22-23 (ESV)\n\nGreat is Thy faithfulness, O God my Father.",
     hashtags: "#LivingWater #VerseOfTheDay #Lamentations3 #GreatIsThy Faithfulness #GodsLove #BibleVerse",
     bibleRef: "Lamentations 3:22-23",
+    format: "carousel",
+    music: "\"Great Is Thy Faithfulness\" by CityAlight — modern hymn, timeless, faithful",
+    slides: [
+      "Slide 1: Warm cream-to-gold gradient with classic feel. Playfair Display in navy: 'GREAT IS THY FAITHFULNESS'. Inter light below: 'Verse of the Day — April 29'. A subtle cross and sunrise motif. Classic, hymn-like, eternal.",
+      "Slide 2: Cream background with soft gold wash. Large Playfair Display italic in navy: '\"The steadfast love of the Lord never ceases; His mercies never come to an end; they are new every morning; great is your faithfulness.\"' Inter small caps: 'Lamentations 3:22-23'. Timeless, warm, faithful.",
+      "Slide 3: White background with warm gold gradient at bottom. Playfair Display italic in navy: 'Great is Thy faithfulness, O God my Father.' Inter regular below: 'He has never failed you. He never will.' Thin navy rule. LivingWater mark. Classic, assured, eternal close.",
+    ],
   },
   {
     id: "apr-29-word",
@@ -776,6 +1190,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "WORD STUDY: AGAPE\n\nThe Greek word 'Agape' (ἀγάπη) is the highest form of love in the Bible.\n\nGreek has 4 words for love:\n- Eros (romantic)\n- Philia (friendship)\n- Storge (family)\n- Agape (unconditional, sacrificial)\n\nAgape is the love God has for you:\n\n\"God demonstrates His own agape for us in this: While we were still sinners, Christ died for us.\" — Romans 5:8\n\nAgape doesn't wait for you to be lovable. It loves you at your worst. It loves you first. That's God's love.",
     hashtags: "#LivingWater #WordStudy #Agape #UnconditionalLove #GreekWord #Romans5 #GodsLove #Theology",
     bibleRef: "Romans 5:8",
+    format: "carousel",
+    music: "\"Reckless Love\" by Cory Asbury — overwhelming, relentless, pursuing love",
+    slides: [
+      "Slide 1: Deep crimson-to-warm-rose gradient with soft golden light. 'AGAPE' in large Playfair Display cream text. Greek 'ἀγάπη' above in elegant gold script. Inter light below: 'Word Study Wednesday'. Subtle heart motif. Warm, passionate, sacred.",
+      "Slide 2: Warm cream background with subtle Greek manuscript texture. Playfair Display in navy: 'The 4 Greek Words for Love'. Listed in Inter regular: 'Eros (romantic) / Philia (friendship) / Storge (family) / Agape (unconditional, sacrificial)' — with Agape highlighted in gold and slightly larger. Clear, educational, elegant.",
+      "Slide 3: Warm deep rose tones with a cross silhouette emanating golden light. Playfair Display italic in cream: '\"God demonstrates His own agape for us in this: While we were still sinners, Christ died for us.\"' with 'agape' in gold. Inter small caps: 'Romans 5:8'. Love and sacrifice made tangible.",
+      "Slide 4: Soft sunrise background (cream to warm rose to golden). Inter regular in navy: 'Agape doesn't wait for you to be lovable. It loves you at your worst. It loves you first.' Below in Playfair Display italic: 'That's God's love.' Inter italic: 'Lord, let Your agape love flow through me this week.' LivingWater mark. Deeply warm, moving close.",
+    ],
   },
 
   // === APRIL 30 (Thursday) ===
@@ -790,6 +1212,13 @@ const APRIL_2026: ContentItem[] = [
     caption: "As we close this month, receive this blessing:\n\n\"The Lord bless you and keep you; the Lord make His face shine on you and be gracious to you; the Lord turn His face toward you and give you peace.\" — Numbers 6:24-26\n\nMay God's face shine on you this month and always.",
     hashtags: "#LivingWater #VerseOfTheDay #Numbers6 #Blessing #AaronicBlessing #Peace #EndOfMonth",
     bibleRef: "Numbers 6:24-26",
+    format: "carousel",
+    music: "\"The Blessing\" by Kari Jobe & Cody Carnes — overflowing blessing, generational, powerful",
+    slides: [
+      "Slide 1: Warm golden gradient with soft light rays. Playfair Display in navy: 'THE LORD BLESS YOU'. Inter light below: 'Verse of the Day — April 30'. A subtle radiating light/hands of blessing motif in muted gold. Warm, priestly, sacred send-off.",
+      "Slide 2: Cream background with golden accents. Large Playfair Display italic in navy: '\"The Lord bless you and keep you; the Lord make His face shine on you and be gracious to you; the Lord turn His face toward you and give you peace.\"' Inter small caps in gold: 'Numbers 6:24-26'. The blessing fills the frame. Sacred, weighty, beautiful.",
+      "Slide 3: White background with warm golden light at bottom. Inter regular in navy: 'May God's face shine on you this month and always.' Playfair Display italic below: 'Amen.' Thin gold decorative line. LivingWater mark in gold. Warm, blessed, peaceful close to the month.",
+    ],
   },
   {
     id: "apr-30-fruit",
@@ -802,6 +1231,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "FRUIT OF THE SPIRIT: PATIENCE (Part 4/9)\n\n\"...patience...\" — Galatians 5:22\n\nPatience is love under pressure. It's choosing kindness when everything in you wants to react.\n\nGod is the ultimate model:\n\n\"The Lord is slow to anger, abounding in love.\" — Psalm 103:8\n\nHe has been so patient with us. How much more should we be patient with others?\n\nPractical step: Next time someone frustrates you this week, pause. Breathe. Remember how patient God has been with you. Then respond — don't react.",
     hashtags: "#LivingWater #FruitOfTheSpirit #Patience #Galatians5 #Psalm103 #ChristianLiving #SpiritualGrowth",
     bibleRef: "Psalm 103:8",
+    format: "carousel",
+    music: "\"Slow Down\" by Jonathan David Helser — patient, unhurried, grounded",
+    slides: [
+      "Slide 1: Warm earthy terracotta-to-sand gradient. 'PATIENCE' in large Playfair Display bold navy text, centered. Inter light below: 'Fruit of the Spirit — Part 4/9'. Botanical olive tree accents symbolizing slow, steady growth. Grounded, warm, steady.",
+      "Slide 2: Soft linen-textured cream background. Playfair Display in navy: 'Patience is love under pressure.' Inter regular below: 'It's choosing kindness when everything in you wants to react.' Warm earth tones. Grounded, honest, convicting. Simple and direct.",
+      "Slide 3: Warm golden hour tones with hourglass or slow-moving sand dune imagery. Playfair Display italic in navy: '\"The Lord is slow to anger, abounding in love.\"' Inter small caps: 'Psalm 103:8'. Below in Inter: 'He has been so patient with us.' Time feels unhurried, intentional. God's patience is vast.",
+      "Slide 4: Warm cream background with earthy accents. Inter regular in navy: 'This week: When someone frustrates you — pause. Breathe. Remember how patient God has been with you. Then respond, don't react.' Below in Playfair Display italic: 'Patience is love that waits.' LivingWater mark. Grounding, practical close.",
+    ],
   },
 
   // === BONUS: Answered Prayer Spotlight (mid-month) ===
@@ -816,6 +1253,12 @@ const APRIL_2026: ContentItem[] = [
     caption: "ANSWERED PRAYER SPOTLIGHT\n\nHas God answered a prayer for you recently? We want to celebrate with you!\n\nShare your answered prayer in the comments or DM us — with your permission, we'll share it to encourage others.\n\n\"The prayer of a righteous person is powerful and effective.\" — James 5:16\n\nGod is still in the business of answering prayers. Let's praise Him together!",
     hashtags: "#LivingWater #AnsweredPrayer #Testimony #James5 #GodAnswers #PraiseReport #ChristianCommunity",
     bibleRef: "James 5:16",
+    format: "carousel",
+    music: "\"Thank You Jesus For The Blood\" by Charity Gayle — grateful, testimony-driven, praising",
+    slides: [
+      "Slide 1: Warm golden background with celebratory confetti-like gold dots scattered subtly. Playfair Display in navy: 'ANSWERED PRAYER SPOTLIGHT'. Inter below: 'Has God answered a prayer for you recently? Share it with us!' Hands raised or celebration motif in navy line art. Joyful, inviting, community-driven.",
+      "Slide 2: Cream background with soft gold accents. Playfair Display italic in navy: '\"The prayer of a righteous person is powerful and effective.\"' Inter small caps: 'James 5:16'. Below in Inter regular: 'God is still in the business of answering prayers. Let's praise Him together!' LivingWater mark. Celebratory, faith-building close.",
+    ],
   },
 
   // === Names of God (weekly) ===
@@ -830,6 +1273,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "NAMES OF GOD: JEHOVAH JIREH\n\n\"The Lord Will Provide\" — Genesis 22:14\n\nWhen Abraham was about to sacrifice Isaac, God provided a ram instead. Abraham named that place \"Jehovah Jireh\" — the Lord will provide.\n\nOn Easter, God provided the ultimate sacrifice — His own Son.\n\nJehovah Jireh didn't just provide a ram on a mountain. He provided a Savior on a cross.\n\nWhatever you need today, trust Jehovah Jireh. He has already provided.",
     hashtags: "#LivingWater #NamesOfGod #JehovahJireh #Provider #Genesis22 #Easter #HebrewNames",
     bibleRef: "Genesis 22:14",
+    format: "carousel",
+    music: "\"Jehovah\" by Elevation Worship — reverent, awe-filled, gentle strings and piano",
+    slides: [
+      "Slide 1: Rich deep gold and navy background. 'JEHOVAH JIREH' in bold Playfair Display cream text. Hebrew script 'יְהוָה יִרְאֶה' above in elegant gold calligraphy. Inter below: 'The Lord Will Provide'. Regal, sacred, warm.",
+      "Slide 2: Warm parchment-textured background with subtle gold accents. Inter regular in navy: 'Jireh means \"to see\" or \"to provide.\" God sees your need before you do — and He provides.' Playfair Display in navy: 'Genesis 22:14'. The concept explained clearly and beautifully. Scholarly yet accessible.",
+      "Slide 3: Mountain silhouette at golden hour with cross shadow. Playfair Display italic in navy: 'Abraham raised the knife. God provided a ram.' Below: 'On Easter — He provided His Son.' The progression from ram to Savior told visually through the landscape shifting from mountain to cross. Dramatic, emotional.",
+      "Slide 4: Soft golden background. Inter regular in navy: 'Whatever you need today — trust Jehovah Jireh. He has already provided.' Below in Inter italic: 'Lord, I trust You as my Provider. You see my needs before I speak them. I rest in Your provision.' LivingWater mark. Encouraging, faith-building close.",
+    ],
   },
   {
     id: "apr-12-name",
@@ -842,6 +1293,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "NAMES OF GOD: EL SHADDAI\n\n\"God Almighty\" — Genesis 17:1\n\nWhen God appeared to Abraham at age 99 and promised him a son, He introduced Himself as El Shaddai — God Almighty.\n\nEl Shaddai means: all-powerful, all-sufficient, more than enough.\n\nIs there something in your life that seems impossible? El Shaddai says:\n\n\"Is anything too hard for the Lord?\" — Genesis 18:14\n\nNothing. The answer is nothing.",
     hashtags: "#LivingWater #NamesOfGod #ElShaddai #GodAlmighty #Genesis17 #HebrewNames #NothingImpossible",
     bibleRef: "Genesis 17:1",
+    format: "carousel",
+    music: "\"El Shaddai\" by Amy Grant — classic, majestic, almighty God",
+    slides: [
+      "Slide 1: Deep midnight blue background with stars and mountain silhouettes. 'EL SHADDAI' in bold Playfair Display cream text. Hebrew script 'אֵל שַׁדַּי' above in elegant gold calligraphy. Inter below: 'God Almighty'. Majestic, vast, awe-inspiring.",
+      "Slide 2: Warm cream background with subtle mountain texture in muted navy. Playfair Display in navy, bold stacked: 'All-powerful. All-sufficient. More than enough.' Each attribute on its own line, weighty. The word 'enough' has a warm gold accent. Confident, reassuring.",
+      "Slide 3: Starlit desert landscape gradient. Inter regular in cream: 'Abraham was 99 years old. God promised him a son. Impossible? Not for El Shaddai.' Playfair Display italic in gold: '\"Is anything too hard for the Lord?\"' Inter small caps: 'Genesis 18:14'. Night sky full of stars — the promise made visible.",
+      "Slide 4: Warm golden background with mountain silhouette at dawn. Inter regular in navy: 'Is there something in your life that seems impossible? El Shaddai says: Nothing.' Below in Inter italic: 'Lord, You are El Shaddai — more than enough. I bring my impossible to You today.' LivingWater mark. Empowering, faith-igniting close.",
+    ],
   },
   {
     id: "apr-19-name",
@@ -854,6 +1313,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "NAMES OF GOD: JEHOVAH RAPHA\n\n\"The Lord Who Heals\" — Exodus 15:26\n\nAfter leading Israel through the Red Sea, God revealed Himself as Jehovah Rapha — the God who heals.\n\n\"He heals the brokenhearted and binds up their wounds.\" — Psalm 147:3\n\nGod doesn't just heal bodies. He heals hearts. He heals memories. He heals what you thought was beyond repair.\n\nBring your brokenness to Jehovah Rapha today.",
     hashtags: "#LivingWater #NamesOfGod #JehovahRapha #Healer #Exodus15 #Psalm147 #Healing #GodsNames",
     bibleRef: "Exodus 15:26",
+    format: "carousel",
+    music: "\"Healer\" by Kari Jobe — tender, restorative, healing presence",
+    slides: [
+      "Slide 1: Soft healing green-to-warm-gold gradient. 'JEHOVAH RAPHA' in warm Playfair Display navy text. Hebrew script 'יְהוָה רָפָא' above in elegant gold calligraphy. Inter below: 'The Lord Who Heals'. Gentle, restorative, tender.",
+      "Slide 2: Warm cream background with gentle green botanical accents. Inter regular in navy: 'Rapha means \"to heal, to restore, to make whole.\" God heals bodies. Hearts. Memories. What you thought was beyond repair.' Each line lands with tenderness. Soft, personal.",
+      "Slide 3: Water imagery — murky transforming to crystal clear with warm golden light. Inter regular in navy: 'After the Red Sea, the water was bitter. God made it sweet. Then He said: \"I am the Lord who heals you.\"' Playfair Display italic: '\"He heals the brokenhearted.\" — Psalm 147:3'. Transformation made visible.",
+      "Slide 4: Soft glowing background — warm greens and golds, like new growth after rain. Inter regular in navy: 'Bring your brokenness to Jehovah Rapha today.' Inter italic below: 'Lord, I bring every wound — visible and invisible — to You. Heal me, restore me, make me whole.' LivingWater mark. Tender, hopeful, healing close.",
+    ],
   },
   {
     id: "apr-26-name",
@@ -866,6 +1333,14 @@ const APRIL_2026: ContentItem[] = [
     caption: "NAMES OF GOD: JEHOVAH SHALOM\n\n\"The Lord Is Peace\" — Judges 6:24\n\nGideon was hiding in a winepress, terrified. God called him a \"mighty warrior.\" When Gideon realized he'd seen the angel of the Lord, he was afraid — but God said: \"Peace! Do not be afraid.\"\n\nGideon built an altar and named it Jehovah Shalom — The Lord Is Peace.\n\nIn your fear, in your chaos, in your anxiety — God's name over your life is PEACE.\n\n\"You will keep in perfect peace those whose minds are steadfast, because they trust in you.\" — Isaiah 26:3",
     hashtags: "#LivingWater #NamesOfGod #JehovahShalom #Peace #Judges6 #Isaiah26 #GodsNames #Trust",
     bibleRef: "Judges 6:24",
+    format: "carousel",
+    music: "\"Peace\" by Bethel Music — serene, calming, like a still lake at dawn",
+    slides: [
+      "Slide 1: Serene deep blue gradient with soft calm water reflections. 'JEHOVAH SHALOM' in elegant Playfair Display cream text. Hebrew script 'יְהוָה שָׁלוֹם' above in flowing gold calligraphy. Inter below: 'The Lord Is Peace'. Still, serene, powerful in its quietness.",
+      "Slide 2: Soft blue-to-cream gradient. Inter regular in navy: 'Shalom means more than peace. It means wholeness, completeness, nothing broken, nothing missing.' Playfair Display below: 'Nothing broken. Nothing missing.' Each definition feels like a deep breath. Spacious, calming.",
+      "Slide 3: Winepress in shadow transitioning to golden altar light. Inter regular in cream/navy: 'Gideon was hiding. Terrified. God called him a mighty warrior. Then said: \"Peace! Do not be afraid.\"' Playfair Display italic in gold: 'Judges 6:24'. The contrast between fear and peace. Warm drama.",
+      "Slide 4: Still waters at golden hour background. Playfair Display italic in navy: '\"You will keep in perfect peace those whose minds are steadfast, because they trust in you.\" — Isaiah 26:3' Below in Inter italic: 'Lord, You are Jehovah Shalom. Speak peace over every storm in my life. I choose to trust You.' LivingWater mark. Deep calm, restful close.",
+    ],
   },
 ];
 

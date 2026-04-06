@@ -28,6 +28,14 @@ function formatDate(day: number): string {
   return `2026-04-${String(day).padStart(2, "0")}`;
 }
 
+const FORMAT_BADGE_STYLES: Record<string, string> = {
+  carousel: "bg-blue-100 text-blue-700 border-blue-300",
+};
+
+const FORMAT_ICONS: Record<string, string> = {
+  carousel: "\u25A1\u25A1\u25A1",
+};
+
 export default function ContentCalendar() {
   const [selectedDate, setSelectedDate] = useState<number | null>(null);
   const [selectedItem, setSelectedItem] = useState<ContentItem | null>(null);
@@ -294,6 +302,13 @@ export default function ContentCalendar() {
                             ? "Instagram"
                             : "TikTok"}
                         </span>
+                        <span
+                          className={`text-[10px] px-1.5 py-0.5 rounded border ${
+                            FORMAT_BADGE_STYLES[item.format]
+                          }`}
+                        >
+                          {FORMAT_ICONS[item.format]} {item.format}
+                        </span>
                         {item.bibleRef && (
                           <span className="text-[10px] px-1.5 py-0.5 rounded bg-gold-50 text-gold-700">
                             {item.bibleRef}
@@ -331,6 +346,14 @@ export default function ContentCalendar() {
                   }`}
                 >
                   {selectedItem.category}
+                </span>
+                <span
+                  className={`text-xs px-2.5 py-1 rounded-full border ${
+                    FORMAT_BADGE_STYLES[selectedItem.format]
+                  }`}
+                >
+                  {FORMAT_ICONS[selectedItem.format]}{" "}
+                  {selectedItem.format.charAt(0).toUpperCase() + selectedItem.format.slice(1)}
                 </span>
                 <span className="text-xs px-2.5 py-1 rounded-full bg-navy-50 text-navy-600">
                   {selectedItem.series}
@@ -375,6 +398,20 @@ export default function ContentCalendar() {
                 </>
               )}
 
+              {selectedItem.music && (
+                <>
+                  <h3 className="text-sm font-semibold text-navy-500 uppercase tracking-wider mb-2 mt-6">
+                    Music Recommendation
+                  </h3>
+                  <div className="flex items-start gap-2 bg-purple-50 border border-purple-200 rounded-lg p-3">
+                    <span className="text-purple-500 text-lg leading-none mt-0.5">&#9835;</span>
+                    <p className="text-purple-800 text-sm leading-relaxed">
+                      {selectedItem.music}
+                    </p>
+                  </div>
+                </>
+              )}
+
               <h3 className="text-sm font-semibold text-navy-500 uppercase tracking-wider mb-2 mt-6">
                 Hashtags
               </h3>
@@ -390,6 +427,34 @@ export default function ContentCalendar() {
               <div className="bg-cream rounded-xl p-4 text-navy-700 text-sm leading-relaxed whitespace-pre-line max-h-96 overflow-y-auto">
                 {selectedItem.caption}
               </div>
+
+              {selectedItem.slides && selectedItem.slides.length > 0 && (
+                <>
+                  <h3 className="text-sm font-semibold text-navy-500 uppercase tracking-wider mb-2 mt-6">
+                    Carousel Slides ({selectedItem.slides.length})
+                  </h3>
+                  <div className="space-y-2">
+                    {selectedItem.slides.map((slide, index) => (
+                      <div
+                        key={index}
+                        className="bg-blue-50 border border-blue-200 rounded-lg p-3"
+                      >
+                        <div className="flex items-center gap-2 mb-1.5">
+                          <span className="w-5 h-5 rounded-full bg-blue-200 text-blue-700 text-[10px] font-bold flex items-center justify-center">
+                            {index + 1}
+                          </span>
+                          <span className="text-blue-700 text-xs font-semibold uppercase tracking-wider">
+                            Slide {index + 1}
+                          </span>
+                        </div>
+                        <p className="text-navy-700 text-sm leading-relaxed">
+                          {slide.replace(/^Slide \d+:\s*/i, "")}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
           </div>
         </div>
